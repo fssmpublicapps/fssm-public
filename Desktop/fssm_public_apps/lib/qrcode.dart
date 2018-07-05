@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-//import 'package:barcode_scan/barcode_scan.dart';
+import 'package:barcode_scan/barcode_scan.dart';
 import 'package:flutter/services.dart';
 
 
@@ -79,12 +79,12 @@ class HomePageState extends State<HomePage1> {
 
   Future _scanQR() async {
     try {
-      //String qrResult = await BarcodeScanner.scan();
+      String qrResult = await BarcodeScanner.scan();
       setState(() {
-        //result = qrResult;
+        result = qrResult;
       });
     } on PlatformException catch (ex) {
-      /*if (ex.code == BarcodeScanner.CameraAccessDenied) {
+      if (ex.code == BarcodeScanner.CameraAccessDenied) {
         setState(() {
           result = "Camera permission was denied";
         });
@@ -92,7 +92,7 @@ class HomePageState extends State<HomePage1> {
         setState(() {
           result = "Unknown Error $ex";
         });
-      }*/
+      }
     } on FormatException {
       setState(() {
         result = "You pressed the back button before scanning anything";
