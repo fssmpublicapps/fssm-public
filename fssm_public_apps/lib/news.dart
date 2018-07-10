@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-
-
 class News extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -85,14 +83,13 @@ class News extends StatelessWidget {
     );
 
     return new MaterialApp(
-      title: 'Flutter Demo',
+      //title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       home: new Scaffold(
-        appBar: new AppBar(
-          title: new Text('Top Lakes'),
-        ),
+
         body: new ListView(
           children: <Widget>[
-            new Image.asset('',
+            new Image.asset('image/logo_fssm_login.png',
               width: 600.0,
               height: 240.0,
               fit: BoxFit.cover,

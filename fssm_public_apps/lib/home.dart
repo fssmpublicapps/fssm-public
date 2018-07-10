@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'product.dart';
-import 'data.dart';
+import 'package:fssm_public_apps/data/product.dart';
+import 'package:fssm_public_apps/data/data.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
             children: <Widget>[
               AspectRatio(
                 aspectRatio: 18.0 / 11.0,
-                child: Image.asset('assets/jatanegara.png'),
+                child: Image.asset('image/menu_header_fssm_logo.png'),
               ),
               Padding(
                 padding: EdgeInsets.fromLTRB(16.0, 12.0, 16.0, 8.0),
