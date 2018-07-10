@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
             children: <Widget>[
               AspectRatio(
                 aspectRatio: 18.0 / 11.0,
-                child: Image.asset('image/menu_header_fssm_logo.png'),
+                child: Image.asset('image/food.jpg'),
               ),
               Padding(
                 padding: EdgeInsets.fromLTRB(16.0, 12.0, 16.0, 8.0),

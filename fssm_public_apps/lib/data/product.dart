@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 import 'package:flutter/foundation.dart';
-enum Category { all, accessories, clothing, home, }
+enum Category { all, premis, food, drink, }
 class Product {
   const Product({
     @required this.category,

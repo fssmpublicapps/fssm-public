@@ -89,7 +89,7 @@ class News extends StatelessWidget {
 
         body: new ListView(
           children: <Widget>[
-            new Image.asset('image/logo_fssm_login.png',
+            new Image.asset('image/delicious-buffet-foods.jpg',
               width: 600.0,
               height: 240.0,
               fit: BoxFit.cover,

@@ -65,7 +65,7 @@ class _MainPageState extends State<MainPage>{
             children: <Widget>[
               new HomePage1(),
               new HomePage(),
-              new News(),
+              new Complaint(),
             ],
 
             //specify the page controller

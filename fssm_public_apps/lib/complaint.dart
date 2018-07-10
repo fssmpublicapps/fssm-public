@@ -24,10 +24,10 @@ class Complaint extends StatelessWidget{
             children: <Widget>[
               AspectRatio(
                 aspectRatio: 5.0 / 4.0,
-                child: Image.asset('image/menu_header_fssm_logo.png'),
+                child: Image.asset('image/logo_fssm_login.png'),
               ),
               Padding(
-                padding: EdgeInsets.fromLTRB(16.0, 8.0, 16.0, 8.0),
+                padding: EdgeInsets.fromLTRB(16.0, 2.0, 16.0, 8.0),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
