@@ -9,6 +9,7 @@ import 'package:flutter_search_bar/flutter_search_bar.dart';
 import 'searchBar.dart';
 import 'app.dart';
 import 'login.dart';
+import 'complaintform.dart';
 
 void main() => runApp(
                   new MaterialApp(
@@ -16,6 +17,7 @@ void main() => runApp(
                     home: new LoginPage(),
                     routes: <String, WidgetBuilder> {
                       '/app' : (BuildContext context) => new FssmPublic(),
+                      '/form' : (BuildContext context) => new FormC(),
                       //'/screen2' : (BuildContext context) => new FssmPublic()
                     }
                   )

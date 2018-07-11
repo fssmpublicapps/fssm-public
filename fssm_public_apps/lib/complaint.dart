@@ -12,8 +12,17 @@ class Complaint extends StatelessWidget{
           children: _buildGridCards(2)
 
       ),
+        floatingActionButton: new FloatingActionButton(
+            elevation: 5.0,
+            child: new Icon(Icons.add, color: Colors.black87),
+            backgroundColor: Colors.yellow[700],
+            onPressed: () {
+             //TODO: show next page
+             Navigator.of(context).pushNamed('/form');
+             },
+        )
     );
-  }
+   }
 
   List<Card> _buildGridCards(int count){
     List<Card> cards = List.generate(

@@ -7,6 +7,7 @@ import 'news.dart';
 import 'complaint.dart';
 import 'package:flutter_search_bar/flutter_search_bar.dart';
 import 'searchBar.dart';
+import 'complaintform.dart';
 
 class FssmPublic extends StatelessWidget{
   @override
@@ -65,7 +66,7 @@ class _MainPageState extends State<MainPage>{
             children: <Widget>[
               new HomePage1(),
               new HomePage(),
-              new Complaint(),
+              new FormC(),
             ],
 
             //specify the page controller
@@ -139,7 +140,7 @@ class _MainPageState extends State<MainPage>{
               )
             ],
           ),
-        )
+        ),
     );
   }
 

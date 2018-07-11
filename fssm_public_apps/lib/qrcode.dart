@@ -11,7 +11,7 @@ class HomePage1 extends StatefulWidget {
 }
 
 class HomePageState extends State<HomePage1> {
-  String result = "";
+  String result = "Push Button to Start Scanning";
 
   Future _scanQR() async {
     try {
@@ -49,7 +49,8 @@ class HomePageState extends State<HomePage1> {
       body: Center(
         child: Text(
           result,
-          style: new TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold),
+          textAlign: TextAlign.center,
+          style: new TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold, ),
         ),
       ),
       floatingActionButton: FloatingActionButton.extended(

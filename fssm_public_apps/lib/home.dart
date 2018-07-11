@@ -9,8 +9,8 @@ class HomePage extends StatelessWidget {
 
       body: GridView.count(
           crossAxisCount: 1,
-          padding: EdgeInsets.all(16.0),
-          childAspectRatio: 8.0 / 9.0,
+          padding: EdgeInsets.all(10.0),
+          childAspectRatio: 8.0 / 6.0,
           //TODO: Build a grid of cards
           children: _buildGridCards(10)
       ),
@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               AspectRatio(
-                aspectRatio: 18.0 / 11.0,
+                aspectRatio: 18.0 / 8.0,
                 child: Image.asset('image/food.jpg'),
               ),
               Padding(
