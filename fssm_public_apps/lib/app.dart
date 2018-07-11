@@ -44,12 +44,6 @@ class _MainPageState extends State<MainPage>{
   Widget build(BuildContext context){
     return new Scaffold(
         appBar: AppBar(
-          leading: IconButton(
-            icon: Icon(Icons.menu),
-            onPressed: (){
-              print('Menu button');
-            },
-          ),
           title: Text("FSSM Public"),
           backgroundColor: Colors.lightBlue,
           actions: <Widget>[
@@ -115,15 +109,22 @@ class _MainPageState extends State<MainPage>{
             //remove any padding
             padding: EdgeInsets.zero,
             children: <Widget>[
-              DrawerHeader(
-                child: Text('User Profile'),
+              new UserAccountsDrawerHeader(
+
                 decoration: BoxDecoration(
                   color: Colors.blue,
+                ),
+                accountName:  const Text('FSSM'),
+                accountEmail: const Text('fssm@gmail.com'),
+                currentAccountPicture: new CircleAvatar(
+                  backgroundColor: Colors.yellow,
+                  child: new Text('FSSM'),
 
                 ),
               ),
               ListTile(
-                title: Text('insert title'),
+                leading: Icon(Icons.announcement),
+                title: Text('NOTIFICATION'),
                 onTap: (){
                   //update the state of app
                   //close the drawer
@@ -131,7 +132,8 @@ class _MainPageState extends State<MainPage>{
                 },
               ),
               ListTile(
-                title: Text('insert title 2'),
+                leading: Icon(Icons.settings),
+                title: Text('SETTING'),
                 onTap: (){
                   //update the state of app
                   //close the drawer
@@ -160,7 +162,7 @@ class _MainPageState extends State<MainPage>{
     );
   }*/
 
-  //called when the user presses on of the
+  //called when the user presses one of the
   //[bottomnavigation] with  corresponding page index
   void navigationTapped(int page){
 
