@@ -11,6 +11,9 @@ dependencies:
   barcode_scan: "^0.0.4"
   flutter_search_bar: "^2.0.4"
   dropdown_menu: "^1.1.0"
+  validate: "^1.6.0"
+  sqflite: any
+
 
 dev_dependencies:
   flutter_test:

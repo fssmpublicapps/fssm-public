@@ -44,7 +44,9 @@ class HomePageState extends State<HomePage1> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("QR Scanner"),
+        title: Text("QR Scanner",
+        style: TextStyle(color: Colors.black87),),
+        backgroundColor: Colors.grey[200],
       ),
       body: Center(
         child: Text(
