@@ -45,5 +45,11 @@
     <string>Camera permission is required for barcode scanning.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
     <key>NSLocationAlwaysUsageDescription</key>
+    <key>NSLocationWhenInUsageDescription</key>
+    <string>Reason why app needs location</string>
+    <key>NSLocationAlwaysAndWhenInUsageDescription</key>
+    <string>Reason why app needs location</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Reason why app needs location</string>
 </dict>
 </plist>

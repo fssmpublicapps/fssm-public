@@ -20,6 +20,12 @@
       <excludeFolder url="file://$MODULE_DIR$/ios/.symlinks/plugins/barcode_scan/example/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/ios/.symlinks/plugins/barcode_scan/example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/ios/.symlinks/plugins/barcode_scan/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/ios/.symlinks/plugins/sqflite/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/ios/.symlinks/plugins/sqflite/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/ios/.symlinks/plugins/sqflite/build" />
+      <excludeFolder url="file://$MODULE_DIR$/ios/.symlinks/plugins/sqflite/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/ios/.symlinks/plugins/sqflite/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/ios/.symlinks/plugins/sqflite/example/build" />
       <excludeFolder url="file://$MODULE_DIR$/ios/fssm_public_apps/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/ios/fssm_public_apps/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/ios/fssm_public_apps/build" />

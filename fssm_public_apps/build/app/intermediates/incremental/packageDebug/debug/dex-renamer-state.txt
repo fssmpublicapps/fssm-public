@@ -1,0 +1,4 @@
+#Mon Jul 16 17:35:03 MYT 2018
+base.0=/Users/dira/fssm-offline/04_Code/fssm-parent/fssm-public/fssm_public_apps/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

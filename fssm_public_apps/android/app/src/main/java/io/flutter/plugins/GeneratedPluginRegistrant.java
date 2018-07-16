@@ -2,6 +2,8 @@ package io.flutter.plugins;
 
 import io.flutter.plugin.common.PluginRegistry;
 import com.apptreesoftware.barcodescan.BarcodeScanPlugin;
+import io.intheloup.geolocation.GeolocationPlugin;
+import com.baseflow.flutter.plugin.geolocator.GeolocatorPlugin;
 import com.tekartik.sqflite.SqflitePlugin;
 
 /**
@@ -13,6 +15,8 @@ public final class GeneratedPluginRegistrant {
       return;
     }
     BarcodeScanPlugin.registerWith(registry.registrarFor("com.apptreesoftware.barcodescan.BarcodeScanPlugin"));
+    GeolocationPlugin.registerWith(registry.registrarFor("io.intheloup.geolocation.GeolocationPlugin"));
+    GeolocatorPlugin.registerWith(registry.registrarFor("com.baseflow.flutter.plugin.geolocator.GeolocatorPlugin"));
     SqflitePlugin.registerWith(registry.registrarFor("com.tekartik.sqflite.SqflitePlugin"));
   }
 

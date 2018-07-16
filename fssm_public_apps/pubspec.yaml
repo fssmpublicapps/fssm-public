@@ -12,6 +12,9 @@ dependencies:
   flutter_search_bar: "^2.0.4"
   dropdown_menu: "^1.1.0"
   validate: "^1.6.0"
+  geolocator: "^1.2.2"
+  geolocation: ^0.2.1
+  flutter_map:
   sqflite: any
 
 

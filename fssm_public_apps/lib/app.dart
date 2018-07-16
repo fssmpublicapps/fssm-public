@@ -43,6 +43,7 @@ class _MainPageState extends State<MainPage>{
   @override
   Widget build(BuildContext context){
     return new Scaffold(
+      resizeToAvoidBottomPadding: false,
         appBar: AppBar(
           title: Text("FSSM Public"),
           backgroundColor: Colors.lightBlue,
