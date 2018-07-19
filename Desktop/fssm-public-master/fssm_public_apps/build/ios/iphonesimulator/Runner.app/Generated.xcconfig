@@ -1,0 +1,9 @@
+// This is a generated file; do not edit or check into version control.
+FLUTTER_ROOT=/Applications/flutter
+FLUTTER_APPLICATION_PATH=/Users/dira/fssm-offline/04_Code/fssm-parent/fssm-public/fssm_public_apps
+FLUTTER_TARGET=/Users/dira/fssm-offline/04_Code/fssm-parent/fssm-public/fssm_public_apps/lib/main.dart
+FLUTTER_BUILD_MODE=debug
+FLUTTER_BUILD_DIR=build
+SYMROOT=${SOURCE_ROOT}/../build/ios
+FLUTTER_FRAMEWORK_DIR=/Applications/flutter/bin/cache/artifacts/engine/ios
+PREVIEW_DART_2=true

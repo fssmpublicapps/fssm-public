@@ -1,0 +1,4 @@
+#Thu Jul 19 15:10:22 SGT 2018
+base.0=C\:\\Users\\nadhirah.nawawi\\Desktop\\fssm-public-master\\fssm_public_apps\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
