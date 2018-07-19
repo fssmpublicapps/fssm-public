@@ -102,7 +102,7 @@ class _ComplaintFormState extends State<ComplaintForm>{
             crossAxisAlignment: CrossAxisAlignment.start,
              children: <Widget>[
                TextFormField(
-                 obscureText: true,
+                 //obscureText: true,
                 decoration: InputDecoration(
                   labelText: 'Name',
                   labelStyle: TextStyle(
@@ -123,7 +123,7 @@ class _ComplaintFormState extends State<ComplaintForm>{
                 }
               ),
               TextFormField(
-                obscureText: false,
+                //obscureText: false,
                   autofocus: true,
                   keyboardType: TextInputType.phone,
                   decoration: InputDecoration(
@@ -145,7 +145,7 @@ class _ComplaintFormState extends State<ComplaintForm>{
                   }
               ),
               TextFormField(
-                obscureText: true,
+                //obscureText: true,
                 keyboardType: TextInputType.emailAddress,
                   decoration: InputDecoration(
                     labelText: 'Email',
@@ -168,7 +168,7 @@ class _ComplaintFormState extends State<ComplaintForm>{
               ),
               TextFormField(
                 autofocus: true,
-                  obscureText: true,
+                  //obscureText: true,
                   decoration: InputDecoration(
                     labelText: 'Subject',
                     labelStyle: TextStyle(
@@ -188,7 +188,7 @@ class _ComplaintFormState extends State<ComplaintForm>{
                   }
               ),
                TextFormField(
-                   obscureText: true,
+                   //obscureText: true,
                    decoration: InputDecoration(
                      labelText: 'Complaint Detail',
                      labelStyle: TextStyle(
@@ -234,7 +234,7 @@ class _ComplaintFormState extends State<ComplaintForm>{
                        onChanged: (v)=>setState((){
                          _text=v;
                        }),
-                       obscureText: true,
+                       //obscureText: true,
                        decoration: InputDecoration(
                          labelText: 'Location',
                          labelStyle: TextStyle(
@@ -245,7 +245,7 @@ class _ComplaintFormState extends State<ComplaintForm>{
                  ],
                ),
                TextFormField(
-                 obscureText: true,
+                 //obscureText: true,
                  decoration: InputDecoration(
                    labelText: 'Address',
                    labelStyle: TextStyle(
@@ -265,7 +265,7 @@ class _ComplaintFormState extends State<ComplaintForm>{
                  }
                ),
                TextFormField(
-                  obscureText: true,
+                  //obscureText: true,
                   decoration: InputDecoration(
                     hintText: 'Street 2',
                       hintStyle: TextStyle(
@@ -277,7 +277,7 @@ class _ComplaintFormState extends State<ComplaintForm>{
                   ),
                ),
                TextFormField(
-                 obscureText: true,
+                 //obscureText: true,
                  keyboardType: TextInputType.number,
                  decoration: InputDecoration(
                      hintText: 'Postcode',
@@ -292,7 +292,7 @@ class _ComplaintFormState extends State<ComplaintForm>{
                TextFormField(
                  autofocus: true,
                  focusNode: FocusNode(),
-                 obscureText: true,
+                 //obscureText: true,
                  decoration: InputDecoration(
                      hintText: 'District',
                      hintStyle: TextStyle(
@@ -304,7 +304,7 @@ class _ComplaintFormState extends State<ComplaintForm>{
                  ),
                ),
                TextFormField(
-                 obscureText: true,
+                 //obscureText: true,
                  decoration: InputDecoration(
                      hintText: 'State',
                      hintStyle: TextStyle(
