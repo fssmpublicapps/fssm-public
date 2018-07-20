@@ -22,6 +22,16 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Camera permission is required for barcode scanning.</string>
+	<key>NSLocationAlwaysAndWhenInUsageDescription</key>
+	<string>Reason why app needs location</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Reason why app needs location</string>
+	<key>NSLocationWhenInUsageDescription</key>
+	<string>Reason why app needs location</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>NSLocationAlwaysUsageDescription</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -41,15 +51,5 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>NSCameraUsageDescription</key>
-    <string>Camera permission is required for barcode scanning.</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-    <key>NSLocationAlwaysUsageDescription</key>
-    <key>NSLocationWhenInUsageDescription</key>
-    <string>Reason why app needs location</string>
-    <key>NSLocationAlwaysAndWhenInUsageDescription</key>
-    <string>Reason why app needs location</string>
-    <key>NSLocationAlwaysUsageDescription</key>
-    <string>Reason why app needs location</string>
 </dict>
 </plist>

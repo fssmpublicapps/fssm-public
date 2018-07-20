@@ -7,53 +7,104 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03B788093298B30358F54C446D20D9FD /* Operation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F1425C83F6D5FBB7D2AC73CA171EA11 /* Operation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		03E122C1D246825475391DBC5E49749E /* BarcodeScanPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2265A0E45222F01F868C8E3EA242DF30 /* BarcodeScanPlugin.m */; };
-		1185B51998042E4070709A1A33E78396 /* SqflitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E112C4F8929C2DE7202815C40FE05B2 /* SqflitePlugin.m */; };
-		15C4BE4FB8406C35A4059BCC6EC08E3A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32193462E3D1E44752F72008361CCBF /* QuartzCore.framework */; };
+		03E122C1D246825475391DBC5E49749E /* BarcodeScanPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0456D91B909576339238572C76D066 /* BarcodeScanPlugin.m */; };
+		0C7449D12481254C94A2282155BD0910 /* Codec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D817FA8BDCBC2786F5424889A88CF222 /* Codec.swift */; };
+		15C4BE4FB8406C35A4059BCC6EC08E3A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB280784FAE87CE170231FCF75EC427 /* QuartzCore.framework */; };
+		165E68049FE130AC65DEF123057BA9D8 /* geolocator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 648D5D125AA5C443ABE896E17F256E41 /* geolocator-dummy.m */; };
 		1759F78B5CE058C49A526CA0C820F150 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D0D474EE3F7F251B0711798D7EC344 /* FMDB.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		228970B26005B16CB36B639BE9B5DCAC /* SqflitePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 63F63C08F42CD9270C4DC7BEAEF1AA92 /* SqflitePlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2419C8D3791C8A63A803F31E2A044CBE /* geolocator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8016BBDBED36363156638A5720F03B6 /* geolocator-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		24DBA8205AD3388A3174BFE760720A24 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E57883F7B214671BFD8BB761151B74A /* Result.swift */; };
 		25205D5399D0BE9EA31C6F22D72F2D87 /* MTBBarcodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B4858A7A9F4BFEBD5D37B566A9DE11 /* MTBBarcodeScanner.m */; };
+		25520F292D5A2FC69ADCEB1264721949 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DB993BAB0A53EC99B9F69B76BD738E /* Location.swift */; };
+		258D36A094DF9AFC3E61DF891F718DE5 /* LocationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16742D699DDEF155D64FA9B2A5ED46B /* LocationClient.swift */; };
 		3253F81EBDA889C2FDE1FAD24F3697E8 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 29EEDE280CC2505A9CF62FE1FD5530F1 /* FMDatabase.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3367F093F18D31B29A1335FA8EDC1267 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F6B8B0C0141EC907DD3C182C262C72 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4B452F306BDF101563BDFBDEB37AF754 /* sqflite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 671804D41AC3E3D5827644749C8ACCDB /* sqflite-dummy.m */; };
+		3F4549F8B2C937E7AAC16F6B902FCF8E /* Codec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4898A8474813BF9C462F7237E33D7B4A /* Codec.swift */; };
+		42212B0F3A71217E3B04B61C153E3CEE /* LocationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903F8CC525AEB886068DBC9797EE4E1B /* LocationExtension.swift */; };
+		42AAC84BFE6A53A0ACF86333ACEE97CD /* Accuracy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994ED576286C9BD37C0D79839FEB8914 /* Accuracy.swift */; };
 		5287A9A3E6EC4E7E906F769F579C83BC /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FB5C2BD7B78CB9726A03220CDC3F2D /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		55BD24AEB4F498F23E6835B117ACB977 /* SqflitePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = D43DAFE29DE60575F5161C828BFF6E9D /* SqflitePlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		686BDA231689BFAA5F6AD58768A52482 /* BarcodeScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40372B14CB52EC89172E8C36CD521147 /* BarcodeScannerViewController.m */; };
+		5AF88FE92E092FDAD2C93582C80C9A82 /* GeolocationPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = D49CCC41E0D7DC8D40EC2B09A10D168B /* GeolocationPlugin.m */; };
+		5F39E947D983BF585D420B49B643E87D /* GeolocationPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 652033174B36E1D30D99791C3F850732 /* GeolocationPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		661603959CA6319D41E018AFBF163785 /* SwiftGeolocatorPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8805541FF759E6016569795BEB271DBF /* SwiftGeolocatorPlugin.swift */; };
+		686BDA231689BFAA5F6AD58768A52482 /* BarcodeScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 811E1A4DA060EBD2A255131AA868F0B1 /* BarcodeScannerViewController.m */; };
+		6BA8A49F518F005EA81DD71839D2E6B6 /* CLLocationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D6F081730328810C1EF7DCB73446D /* CLLocationExtensions.swift */; };
+		7B34CBA4E70F1AEF5E99A5DEAB520B8D /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B4F7FC95756CC25C377BF5E6569B52 /* Operation.m */; };
+		7C4615A25199FFC364410D620B2A5A23 /* GeolocatorPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = FC30420EE971940BBBE306B94BFFA302 /* GeolocatorPlugin.m */; };
 		859D7ED69D00170EDE2B3E01FBFB675A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 916C2A3DDCA6BD7562DA9F6ED7215253 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		89E2C03BE9A8D673524115724B89D38C /* barcode_scan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB2E24B0863D21AD7BF2C22CAC2E2EB /* barcode_scan-dummy.m */; };
+		8813CED40552BB7E41D0C4C2194F3FA7 /* LocationOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EF24A75354D0315DF7D4B983D1A8A1 /* LocationOptions.swift */; };
+		89E2C03BE9A8D673524115724B89D38C /* barcode_scan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 976E1760CF7BBA7104A8F8BDE2B36DC0 /* barcode_scan-dummy.m */; };
 		8EFD21116F189E6C8076CE39CB273584 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 579D68CA2BCD94390A6F84A5E1AA826B /* FMResultSet.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8FD54824A926AD2D5DE75A9DCF73D440 /* geolocation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73CA7C9EC0ABAA9AD9A8D9BF3F852EE4 /* geolocation-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		93291C63FFC0F43D9DA6653F98124E97 /* LocationUpdatesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BA3DA351B35CE4EE0E2876614D461A /* LocationUpdatesRequest.swift */; };
+		9800223CD40A824658D590185636C611 /* LocationTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B7A051C656A4A6DF949E7A66E0DB45 /* LocationTask.swift */; };
 		9918385E99AA20D66120837F7CB8C197 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3793AF949CF994F18BE8B38281934E8D /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9C9C42C285519B22359696553A023E7F /* MTBBarcodeScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F41DF48EA6DAB73535B6129BCC6B112 /* MTBBarcodeScanner.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AA587CC37AD8566741823811AC988B68 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5079A92F210300AE9E18D9CBA801DF7 /* AVFoundation.framework */; };
-		B2C48BCB0F9E2B5F7EF2FD214A362286 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC53D349F5BBDFE99466FA303949E279 /* Operation.m */; };
+		9DC5C5023505FEB64CB80E624E737365 /* GeocodeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FABE9E0C9596E1AC9E2E647B91634A /* GeocodeTask.swift */; };
+		9EB3B32C6DE7061895AD5D3B4CDC8898 /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27675D677F45B073CD395648A29A8E7 /* LocationHelper.swift */; };
+		AA587CC37AD8566741823811AC988B68 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E00C93C5AC7B80D47B7E26626FBFF42 /* AVFoundation.framework */; };
+		AA913549013E35BBF984574D23F867A2 /* LocationChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F72419D52CCF79A4E0436A1563E3E5 /* LocationChannel.swift */; };
+		AF115ECFC67FF55E234FB07C6E6A8543 /* geolocation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B43C4F643857AC273D85EB5702285E /* geolocation-dummy.m */; };
 		B585ECE5945353A680A2B18EB92FE45D /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 74139D3694CE6649C2EE1DF5900C8271 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BDFF1CE9048DE0C1521BDD72449D3203 /* BarcodeScanPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B030AB53052364067EA363A884000E /* BarcodeScanPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BE07FB3301AE92B02029A2C4B9B4A891 /* BarcodeScannerViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 001A912A3B5E809BB75E36722F82B1F6 /* BarcodeScannerViewControllerDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6E8B0EBA1938609C132145C5BA2B1D0 /* Permission.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E87652CA8C449B155971253B3BF4E /* Permission.swift */; };
+		BA95FFA42257BA7FCFBD38C8585C1ADC /* TaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE2C7B307F4D1BC6A6024450D34D0D5 /* TaskProtocol.swift */; };
+		BDFF1CE9048DE0C1521BDD72449D3203 /* BarcodeScanPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F6823ADB843845B56C07B4AA3DD1045 /* BarcodeScanPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE07FB3301AE92B02029A2C4B9B4A891 /* BarcodeScannerViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F3E505F715494393367D61D705A0AE83 /* BarcodeScannerViewControllerDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C02CA53F474AE7476ADE5CB11849EF14 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB2A796A6F9B284ED3E0BE9E79077F3 /* FMDB-dummy.m */; };
-		C33DD48F90663DF7593C692749E8E012 /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 468664057D17C890473F3825BE8B6822 /* Pods-Runner-dummy.m */; };
+		C4FB14E26179D02227E97725433A362D /* SwiftGeolocationPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946AAC787C211F8098B3FEDBDE70E3CC /* SwiftGeolocationPlugin.swift */; };
+		C88D9AA0C57B98C2799791A1A701FA93 /* Pods-Runner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE5691C74560ADE1FC5A2C69B310DC2 /* Pods-Runner-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D2882C4B699E1AE931D88B5C9C2D8D85 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 075D9BC3E8439316884D86441F7F1460 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		D9A02C77779E09D3C31AB94BBFAE735B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B0426392D0306A5374C4D388D782E6EA /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DBBA28606DA4740E2BD89853270261E9 /* TaskContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6AA07F4CBFADD39672D1C7C13C4CC9 /* TaskContext.swift */; };
+		DFCC6A6456DDBD17D18AA3CD97EC5F9D /* GeolocatorPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 0926FDF9F605971B254E5D5D90CD8C2C /* GeolocatorPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E40E4EE996047C3937556DE3D1CE827C /* Operation.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3C874B4451F8D5759E5DFA70AF21D4 /* Operation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E6080C15F5598DB256344B71363E6777 /* sqflite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D233F2D5D370C8D7E7D50DE89A0BC5C /* sqflite-dummy.m */; };
+		ED51E092E9FBF821A40D2AE09D073349 /* SqflitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D0331B5318DFD644664920E6B146E3 /* SqflitePlugin.m */; };
 		ED8918386B5AD1743DEF1D2529390BCA /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 03608606F468225B93CE9F91FE2B440C /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE99F7412C7F6EA5E40F49773BEEB844 /* CLPlacemarkExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D028C7CFD81D0CE2FC9D9F833AAED0A2 /* CLPlacemarkExtensions.swift */; };
 		F710C53AFC541D0F882BF08C89ABC5CB /* MTBBarcodeScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E75872429264A435FCBDD21C83D23 /* MTBBarcodeScanner-dummy.m */; };
-		FEA5F5F854364308147086DB3EA7D84C /* BarcodeScannerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 21CB51D1BB52AB32142BCBF56D88B353 /* BarcodeScannerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FA5773B96B7CF22BFDEFE3D797C17657 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D079DF1780808EA71F11361FFD2C134 /* CoreLocation.framework */; };
+		FB5E43894DA0992CBB07CDB5141607CB /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A449D6E98CE2F5DF024A6DD3C03AEBAD /* Pods-Runner-dummy.m */; };
+		FEA5F5F854364308147086DB3EA7D84C /* BarcodeScannerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EDB1BF6A4E0DC9D990A8DA5FF617972F /* BarcodeScannerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		40E5C2287AB788C91FF29CB3F30A6A04 /* PBXContainerItemProxy */ = {
+		29EEB9AB46207BBBDE62D54E8BEA4517 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D97E71B679F946A11EED06A14CDAA81A;
-			remoteInfo = MTBBarcodeScanner;
+			remoteGlobalIDString = 0932DC396E5C4D7776FF9B96BC9E47B3;
+			remoteInfo = geolocation;
 		};
-		5E49937363D9F8E65F1482A0E6A003ED /* PBXContainerItemProxy */ = {
+		3D6506A271BCE7BADDCB478B7FD8FD32 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9F22D9F2F10FB376C7B6B6E767E3B0CF;
 			remoteInfo = barcode_scan;
 		};
-		C0371E39E63709099B67709EA7B018A3 /* PBXContainerItemProxy */ = {
+		5493D81385697EB0E3FE9A44BBDAE1BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61F93AD8D88DFFE103A72A8425CA2570;
+			remoteInfo = sqflite;
+		};
+		580600283EC0BDDB6E9A5B1EB5AD87F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0FF3B6455FA182DD48F6FC9D5CAE6EE;
+			remoteInfo = geolocator;
+		};
+		A9F1DA124491CC06D93A310FB87BA112 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3B1490ADFF2E0A5A13B4C445576BB03;
+			remoteInfo = FMDB;
+		};
+		B00985AD809B95AD4AB0B916659FC719 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -67,83 +118,133 @@
 			remoteGlobalIDString = D97E71B679F946A11EED06A14CDAA81A;
 			remoteInfo = MTBBarcodeScanner;
 		};
-		CD79B1CA1DA1DF1ACBB9C4B3C616D793 /* PBXContainerItemProxy */ = {
+		D6E935B2E386503DC58EF6EAB29AAAB3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9AAEB28324C65F3286C2FD2ED534D370;
-			remoteInfo = sqflite;
-		};
-		F278F23BD20FA1ACBD25C9CBA5BDFDE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F3B1490ADFF2E0A5A13B4C445576BB03;
-			remoteInfo = FMDB;
+			remoteGlobalIDString = D97E71B679F946A11EED06A14CDAA81A;
+			remoteInfo = MTBBarcodeScanner;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		001A912A3B5E809BB75E36722F82B1F6 /* BarcodeScannerViewControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarcodeScannerViewControllerDelegate.h; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-0.0.4/ios/Classes/BarcodeScannerViewControllerDelegate.h"; sourceTree = "<group>"; };
+		007756F535F51DDBA635EE06F6B61556 /* libgeolocator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libgeolocator.a; path = libgeolocator.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		03608606F468225B93CE9F91FE2B440C /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
 		075D9BC3E8439316884D86441F7F1460 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
-		14E58FE88BDE74696DA18D71709505C9 /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
-		1B4CEFB7A7C39037B5DFAFCE375062E1 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
-		21CB51D1BB52AB32142BCBF56D88B353 /* BarcodeScannerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarcodeScannerViewController.h; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-0.0.4/ios/Classes/BarcodeScannerViewController.h"; sourceTree = "<group>"; };
-		2265A0E45222F01F868C8E3EA242DF30 /* BarcodeScanPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarcodeScanPlugin.m; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-0.0.4/ios/Classes/BarcodeScanPlugin.m"; sourceTree = "<group>"; };
+		0926FDF9F605971B254E5D5D90CD8C2C /* GeolocatorPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeolocatorPlugin.h; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-1.2.2/ios/Classes/GeolocatorPlugin.h"; sourceTree = "<group>"; };
+		0D233F2D5D370C8D7E7D50DE89A0BC5C /* sqflite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "sqflite-dummy.m"; sourceTree = "<group>"; };
+		0E00C93C5AC7B80D47B7E26626FBFF42 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		13CF8B190AB7738B1D745CDC05150EE5 /* barcode_scan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "barcode_scan-prefix.pch"; sourceTree = "<group>"; };
+		1813B0003E07DEB046AF1B82EE131886 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocation-0.2.1/LICENSE"; sourceTree = "<group>"; };
+		1AD70C71F53F9B2E1A111D6354333710 /* geolocator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = geolocator.podspec; path = "../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-1.2.2/ios/geolocator.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1B05016F4A61A5BA609F143D080F16ED /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = ../../../../../../../../../../../Applications/flutter/bin/cache/artifacts/engine/ios/Flutter.framework; sourceTree = "<group>"; };
+		1E6AA07F4CBFADD39672D1C7C13C4CC9 /* TaskContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskContext.swift; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-1.2.2/ios/Classes/TaskContext.swift"; sourceTree = "<group>"; };
+		23C05C81855DB553A9EEE09EAD1B0832 /* geolocation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "geolocation-prefix.pch"; sourceTree = "<group>"; };
+		24B43C4F643857AC273D85EB5702285E /* geolocation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "geolocation-dummy.m"; sourceTree = "<group>"; };
+		2884521B3CED8F4FBA5C52F4EB90F7DD /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
 		29EEDE280CC2505A9CF62FE1FD5530F1 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		29F72419D52CCF79A4E0436A1563E3E5 /* LocationChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationChannel.swift; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocation-0.2.1/ios/Classes/LocationChannel.swift"; sourceTree = "<group>"; };
+		2C22CCAFC4273788AAE62785B2F32107 /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Flutter.podspec; path = ../../../../../../../../../../../Applications/flutter/bin/cache/artifacts/engine/ios/Flutter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2C4E75872429264A435FCBDD21C83D23 /* MTBBarcodeScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTBBarcodeScanner-dummy.m"; sourceTree = "<group>"; };
-		2E985C61F26BC6D589793E5D91059B75 /* libbarcode_scan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libbarcode_scan.a; path = libbarcode_scan.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D079DF1780808EA71F11361FFD2C134 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		34FABE9E0C9596E1AC9E2E647B91634A /* GeocodeTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeocodeTask.swift; path = "../../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-1.2.2/ios/Classes/Tasks/GeocodeTask.swift"; sourceTree = "<group>"; };
 		35D0D474EE3F7F251B0711798D7EC344 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
 		3793AF949CF994F18BE8B38281934E8D /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
-		3D09555390101EAF31F789D30040E52C /* libMTBBarcodeScanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMTBBarcodeScanner.a; path = libMTBBarcodeScanner.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		40372B14CB52EC89172E8C36CD521147 /* BarcodeScannerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarcodeScannerViewController.m; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-0.0.4/ios/Classes/BarcodeScannerViewController.m"; sourceTree = "<group>"; };
-		468664057D17C890473F3825BE8B6822 /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
-		4B2C2EBB5F579EC88174515A81CAB2BD /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Flutter.podspec; path = ../../../../../../../../../../../Applications/flutter/bin/cache/artifacts/engine/ios/Flutter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3ACD718E3A138DE72ACB837F88F33B97 /* geolocator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = geolocator.modulemap; path = ../../Headers/Public/geolocator/geolocator.modulemap; sourceTree = "<group>"; };
+		3BB924868686C0E9DE28F64C9C414505 /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFMDB.a; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F991BEC024C174DC2D3ECF30DD21C91 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		43D0331B5318DFD644664920E6B146E3 /* SqflitePlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SqflitePlugin.m; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.0+1/ios/Classes/SqflitePlugin.m"; sourceTree = "<group>"; };
+		44A6F9D7A8362BB89DAEDCF8D9783C36 /* geolocation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = geolocation.modulemap; path = ../../Headers/Public/geolocation/geolocation.modulemap; sourceTree = "<group>"; };
+		46795E6971B6846CBB5ED4FEEED5F977 /* geolocation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = geolocation.xcconfig; sourceTree = "<group>"; };
+		4898A8474813BF9C462F7237E33D7B4A /* Codec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Codec.swift; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocation-0.2.1/ios/Classes/Codec.swift"; sourceTree = "<group>"; };
+		4AE5691C74560ADE1FC5A2C69B310DC2 /* Pods-Runner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Runner-umbrella.h"; sourceTree = "<group>"; };
+		4F1F7A5072880261E84F88936E224189 /* libPods-Runner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Runner.a"; path = "libPods-Runner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7C1304435B8E0D8EA64A44E2213DDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-1.2.2/LICENSE"; sourceTree = "<group>"; };
 		579D68CA2BCD94390A6F84A5E1AA826B /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
 		5BA0469386B2757EAF4C5BF3E362A06F /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
-		5C42D986846F74B4DB78535F7182D117 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
-		5CFD0B91D668CD68D2C4C7FD5BF7858E /* sqflite-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sqflite-prefix.pch"; sourceTree = "<group>"; };
-		5E112C4F8929C2DE7202815C40FE05B2 /* SqflitePlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SqflitePlugin.m; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.0+1/ios/Classes/SqflitePlugin.m"; sourceTree = "<group>"; };
-		5F1425C83F6D5FBB7D2AC73CA171EA11 /* Operation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Operation.h; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.0+1/ios/Classes/Operation.h"; sourceTree = "<group>"; };
-		65B030AB53052364067EA363A884000E /* BarcodeScanPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarcodeScanPlugin.h; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-0.0.4/ios/Classes/BarcodeScanPlugin.h"; sourceTree = "<group>"; };
-		671804D41AC3E3D5827644749C8ACCDB /* sqflite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "sqflite-dummy.m"; sourceTree = "<group>"; };
-		6B3F3E5BD94986EA6CD364B8F1CD9105 /* sqflite.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = sqflite.podspec; path = "../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.0+1/ios/sqflite.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5E57883F7B214671BFD8BB761151B74A /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = "../../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocation-0.2.1/ios/Classes/Data/Result.swift"; sourceTree = "<group>"; };
+		63F63C08F42CD9270C4DC7BEAEF1AA92 /* SqflitePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SqflitePlugin.h; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.0+1/ios/Classes/SqflitePlugin.h"; sourceTree = "<group>"; };
+		648D5D125AA5C443ABE896E17F256E41 /* geolocator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "geolocator-dummy.m"; sourceTree = "<group>"; };
+		652033174B36E1D30D99791C3F850732 /* GeolocationPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeolocationPlugin.h; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocation-0.2.1/ios/Classes/GeolocationPlugin.h"; sourceTree = "<group>"; };
 		6DB2A796A6F9B284ED3E0BE9E79077F3 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
-		7298134CD349F852C19C85E6ED6BCCF2 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = ../../../../../../../../../../../Applications/flutter/bin/cache/artifacts/engine/ios/Flutter.framework; sourceTree = "<group>"; };
+		73BA3DA351B35CE4EE0E2876614D461A /* LocationUpdatesRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationUpdatesRequest.swift; path = "../../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocation-0.2.1/ios/Classes/Data/LocationUpdatesRequest.swift"; sourceTree = "<group>"; };
+		73CA7C9EC0ABAA9AD9A8D9BF3F852EE4 /* geolocation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "geolocation-umbrella.h"; path = "../../Headers/Public/geolocation/geolocation-umbrella.h"; sourceTree = "<group>"; };
 		74139D3694CE6649C2EE1DF5900C8271 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		747E713CC2446A37C407E9F3CCF5E896 /* libPods-Runner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Runner.a"; path = "libPods-Runner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		754B56C7F63531A2AF25B1C202CDEF27 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.0+1/LICENSE"; sourceTree = "<group>"; };
-		7AD2F72BE79A2D928E85F9EB9FB613FA /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7CE2C7B307F4D1BC6A6024450D34D0D5 /* TaskProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskProtocol.swift; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-1.2.2/ios/Classes/TaskProtocol.swift"; sourceTree = "<group>"; };
+		7EE84302DAB81EA8EC9DDF5DBA113F17 /* sqflite-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "sqflite-prefix.pch"; sourceTree = "<group>"; };
 		7F41DF48EA6DAB73535B6129BCC6B112 /* MTBBarcodeScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTBBarcodeScanner.h; path = Classes/ios/Scanners/MTBBarcodeScanner.h; sourceTree = "<group>"; };
-		7FB2E24B0863D21AD7BF2C22CAC2E2EB /* barcode_scan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "barcode_scan-dummy.m"; sourceTree = "<group>"; };
-		81A98342CEDB2530F70F941027F15411 /* barcode_scan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "barcode_scan-prefix.pch"; sourceTree = "<group>"; };
+		811E1A4DA060EBD2A255131AA868F0B1 /* BarcodeScannerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarcodeScannerViewController.m; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-0.0.4/ios/Classes/BarcodeScannerViewController.m"; sourceTree = "<group>"; };
+		8805541FF759E6016569795BEB271DBF /* SwiftGeolocatorPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftGeolocatorPlugin.swift; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-1.2.2/ios/Classes/SwiftGeolocatorPlugin.swift"; sourceTree = "<group>"; };
 		88FB5C2BD7B78CB9726A03220CDC3F2D /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		894E5BD7CEAC3ACC2CFD6F3A77B72D77 /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A359C7A4F6F06481CC180818906C639 /* geolocation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = geolocation.podspec; path = "../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocation-0.2.1/ios/geolocation.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8C0456D91B909576339238572C76D066 /* BarcodeScanPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarcodeScanPlugin.m; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-0.0.4/ios/Classes/BarcodeScanPlugin.m"; sourceTree = "<group>"; };
+		903F8CC525AEB886068DBC9797EE4E1B /* LocationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationExtension.swift; path = "../../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocation-0.2.1/ios/Classes/Location/LocationExtension.swift"; sourceTree = "<group>"; };
 		916C2A3DDCA6BD7562DA9F6ED7215253 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		9367857A1EF4387F75758F366569E2EC /* barcode_scan.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = barcode_scan.podspec; path = "../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-0.0.4/ios/barcode_scan.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		92F1CF70E8DFBCE9687E830201DCD16B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../../../../../../../../../../../Applications/flutter/bin/cache/artifacts/engine/ios/LICENSE; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		946AAC787C211F8098B3FEDBDE70E3CC /* SwiftGeolocationPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftGeolocationPlugin.swift; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocation-0.2.1/ios/Classes/SwiftGeolocationPlugin.swift"; sourceTree = "<group>"; };
+		9503917BE18442172388B93F154256C7 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		96270F008C8C749F1E04F6335B99F3AE /* libbarcode_scan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libbarcode_scan.a; path = libbarcode_scan.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		976E1760CF7BBA7104A8F8BDE2B36DC0 /* barcode_scan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "barcode_scan-dummy.m"; sourceTree = "<group>"; };
+		994ED576286C9BD37C0D79839FEB8914 /* Accuracy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Accuracy.swift; path = "../../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocation-0.2.1/ios/Classes/Data/Accuracy.swift"; sourceTree = "<group>"; };
 		9D591B06B0AB2876902801175DB30059 /* MTBBarcodeScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTBBarcodeScanner.xcconfig; sourceTree = "<group>"; };
 		9E030E72A176E8D5C80AAF0AF149D7CA /* MTBBarcodeScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTBBarcodeScanner-prefix.pch"; sourceTree = "<group>"; };
-		A1153EC5FE504BE5C724E20E9B411E90 /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
-		A84633CB40E489EF4DD77D43434D3024 /* Pods-Runner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-resources.sh"; sourceTree = "<group>"; };
+		9F6823ADB843845B56C07B4AA3DD1045 /* BarcodeScanPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarcodeScanPlugin.h; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-0.0.4/ios/Classes/BarcodeScanPlugin.h"; sourceTree = "<group>"; };
+		A0B4F7FC95756CC25C377BF5E6569B52 /* Operation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Operation.m; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.0+1/ios/Classes/Operation.m"; sourceTree = "<group>"; };
+		A449D6E98CE2F5DF024A6DD3C03AEBAD /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
+		A4DB993BAB0A53EC99B9F69B76BD738E /* Location.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Location.swift; path = "../../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocation-0.2.1/ios/Classes/Data/Location.swift"; sourceTree = "<group>"; };
+		A4EABE3FC891606A8FD261B02F660327 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.0+1/LICENSE"; sourceTree = "<group>"; };
+		AA76D172D3ABE941DEBE57FD14A55293 /* libsqflite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libsqflite.a; path = libsqflite.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0426392D0306A5374C4D388D782E6EA /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
-		B32193462E3D1E44752F72008361CCBF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		B5079A92F210300AE9E18D9CBA801DF7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		B9BFAAD5B512D22162B633AD984F44C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-0.0.4/LICENSE"; sourceTree = "<group>"; };
-		BC53D349F5BBDFE99466FA303949E279 /* Operation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Operation.m; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.0+1/ios/Classes/Operation.m"; sourceTree = "<group>"; };
-		C2AC49B822273034E245C17C4E67FEC4 /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFMDB.a; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B26E87652CA8C449B155971253B3BF4E /* Permission.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Permission.swift; path = "../../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocation-0.2.1/ios/Classes/Data/Permission.swift"; sourceTree = "<group>"; };
+		B2B08AA50A492B703E33BF203104BFC8 /* sqflite.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = sqflite.podspec; path = "../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.0+1/ios/sqflite.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B4B7A051C656A4A6DF949E7A66E0DB45 /* LocationTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationTask.swift; path = "../../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-1.2.2/ios/Classes/Tasks/LocationTask.swift"; sourceTree = "<group>"; };
+		BB0E2D92F39390E1E161DBE0C050296C /* barcode_scan.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = barcode_scan.xcconfig; sourceTree = "<group>"; };
+		BB315EF1F9BC5CFEF1D0D3494D09734F /* barcode_scan.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = barcode_scan.podspec; path = "../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-0.0.4/ios/barcode_scan.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C16742D699DDEF155D64FA9B2A5ED46B /* LocationClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationClient.swift; path = "../../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocation-0.2.1/ios/Classes/Location/LocationClient.swift"; sourceTree = "<group>"; };
+		C16D6F081730328810C1EF7DCB73446D /* CLLocationExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLLocationExtensions.swift; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-1.2.2/ios/Classes/CLLocationExtensions.swift"; sourceTree = "<group>"; };
+		C2C17E8A0E5734C5ACAA73BB584CD78E /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C344F6EC80F6F474D946E8D2B1D716E1 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
-		CCA96AB173B63030C68CE567E72493FE /* barcode_scan.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = barcode_scan.xcconfig; sourceTree = "<group>"; };
+		CEEFA43E4F7885377A6EE926291186DE /* geolocator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = geolocator.xcconfig; sourceTree = "<group>"; };
+		D028C7CFD81D0CE2FC9D9F833AAED0A2 /* CLPlacemarkExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLPlacemarkExtensions.swift; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-1.2.2/ios/Classes/CLPlacemarkExtensions.swift"; sourceTree = "<group>"; };
 		D1B4858A7A9F4BFEBD5D37B566A9DE11 /* MTBBarcodeScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTBBarcodeScanner.m; path = Classes/ios/Scanners/MTBBarcodeScanner.m; sourceTree = "<group>"; };
-		D43DAFE29DE60575F5161C828BFF6E9D /* SqflitePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SqflitePlugin.h; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.0+1/ios/Classes/SqflitePlugin.h"; sourceTree = "<group>"; };
-		DE303DE58307D7BD8D5CB5642063CFEB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../../../../../../../../../../../Applications/flutter/bin/cache/artifacts/engine/ios/LICENSE; sourceTree = "<group>"; };
-		DFF433DC79EF28DB5BD876CBA9569FF6 /* libsqflite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libsqflite.a; path = libsqflite.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27675D677F45B073CD395648A29A8E7 /* LocationHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationHelper.swift; path = "../../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocation-0.2.1/ios/Classes/Location/LocationHelper.swift"; sourceTree = "<group>"; };
+		D38B276B6FC0EF680B4C923315858E8F /* geolocator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "geolocator-prefix.pch"; sourceTree = "<group>"; };
+		D49CCC41E0D7DC8D40EC2B09A10D168B /* GeolocationPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GeolocationPlugin.m; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocation-0.2.1/ios/Classes/GeolocationPlugin.m"; sourceTree = "<group>"; };
+		D8016BBDBED36363156638A5720F03B6 /* geolocator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "geolocator-umbrella.h"; path = "../../Headers/Public/geolocator/geolocator-umbrella.h"; sourceTree = "<group>"; };
+		D817FA8BDCBC2786F5424889A88CF222 /* Codec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Codec.swift; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-1.2.2/ios/Classes/Codec.swift"; sourceTree = "<group>"; };
+		DFB280784FAE87CE170231FCF75EC427 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E1EF24A75354D0315DF7D4B983D1A8A1 /* LocationOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationOptions.swift; path = "../../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-1.2.2/ios/Classes/Data/LocationOptions.swift"; sourceTree = "<group>"; };
 		E2F6B8B0C0141EC907DD3C182C262C72 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
-		E3CA32E0E92614EFFBAA1B89A09DF417 /* sqflite.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sqflite.xcconfig; sourceTree = "<group>"; };
+		E36F938CBF443C612BC65D8811D884AA /* Pods-Runner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-resources.sh"; sourceTree = "<group>"; };
+		EB608DAB47D9857EFB3C942DC7951008 /* libgeolocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libgeolocation.a; path = libgeolocation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFB5747E465F9D5C8288516CA45464D /* libMTBBarcodeScanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMTBBarcodeScanner.a; path = libMTBBarcodeScanner.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB1BF6A4E0DC9D990A8DA5FF617972F /* BarcodeScannerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarcodeScannerViewController.h; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-0.0.4/ios/Classes/BarcodeScannerViewController.h"; sourceTree = "<group>"; };
+		F3E505F715494393367D61D705A0AE83 /* BarcodeScannerViewControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarcodeScannerViewControllerDelegate.h; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-0.0.4/ios/Classes/BarcodeScannerViewControllerDelegate.h"; sourceTree = "<group>"; };
+		F43194E5A5B2710345EAE99A473DC934 /* Pods-Runner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Runner.modulemap"; sourceTree = "<group>"; };
+		F645FD5E548024286B762562F00DA569 /* sqflite.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sqflite.xcconfig; sourceTree = "<group>"; };
+		F8BF6F6146EFBCE5E1144B332B9380A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-0.0.4/LICENSE"; sourceTree = "<group>"; };
+		FC30420EE971940BBBE306B94BFFA302 /* GeolocatorPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GeolocatorPlugin.m; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-1.2.2/ios/Classes/GeolocatorPlugin.m"; sourceTree = "<group>"; };
+		FE3C874B4451F8D5759E5DFA70AF21D4 /* Operation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Operation.h; path = "../../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.0+1/ios/Classes/Operation.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		750427D921C4849E0B5F603106805EF5 /* Frameworks */ = {
+		236A5A58283538EB849162BFA22EE17A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A79314AA63088BAE8DD53461D0E79D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6895191DDFB4C339344B1A170C473F9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -173,50 +274,89 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7CA2822C963F26AFB52DB60D9BF748F /* Frameworks */ = {
+		EDE6E519202AECBE21B7A179DA084D97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5773B96B7CF22BFDEFE3D797C17657 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0068B677E4906FEEF8625031673A6FBE /* fssm-public */ = {
+		01F2000D0126C4DC140FCF75A603A574 /* barcode_scan */ = {
 			isa = PBXGroup;
 			children = (
-				208A5F71F0E50A16DFD02110BE9DDD76 /* fssm_public_apps */,
+				12D7F596EE2D4E5E7395EEC1E1188BB5 /* .. */,
+				A3F94745DF930ACA182295954872E599 /* Pod */,
+				F9578D5486B7565A8989AFCE4D3E3AF9 /* Support Files */,
 			);
-			name = "fssm-public";
-			path = "fssm-public";
+			name = barcode_scan;
+			path = ../.symlinks/plugins/barcode_scan/ios;
 			sourceTree = "<group>";
 		};
-		01673B1788D529951E79BCB0E1BA28D8 /* plugins */ = {
+		0301A13334D286AB93FD2AC4959D36D6 /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				9CCA3DEEA1612449E2F5DF5184017DB4 /* barcode_scan */,
+				F09E1D9BFF91CFCE79835537A5DF269B /* Classes */,
 			);
-			name = plugins;
-			path = plugins;
+			name = ios;
+			path = ios;
 			sourceTree = "<group>";
 		};
-		01B05AF20EF191C821E197CE9F4CAA94 /* .symlinks */ = {
+		03702A7AE28C2569ADD9A59FDCBB3F92 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				A826CEA3CD42E9C9C3D946C6E4678F8B /* plugins */,
+				9A5E102EAD73A50E30F88B7471F3B2C9 /* .. */,
 			);
-			name = .symlinks;
-			path = .symlinks;
+			name = ..;
+			path = ..;
 			sourceTree = "<group>";
 		};
-		02374ACA07071CDC5E072D2D730369C8 /* Pod */ = {
+		03F14AAE492127BEBD34E8C66C2CF276 /* dira */ = {
 			isa = PBXGroup;
 			children = (
-				9367857A1EF4387F75758F366569E2EC /* barcode_scan.podspec */,
-				B9BFAAD5B512D22162B633AD984F44C9 /* LICENSE */,
+				0A203175A99BB9008FEB381346629049 /* fssm-offline */,
+			);
+			name = dira;
+			path = dira;
+			sourceTree = "<group>";
+		};
+		05D123C697C712E8A90F61FDC8F0D05F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1AD70C71F53F9B2E1A111D6354333710 /* geolocator.podspec */,
+				4F7C1304435B8E0D8EA64A44E2213DDF /* LICENSE */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		067933D641D1812072A899FC63AFED8C /* geolocator */ = {
+			isa = PBXGroup;
+			children = (
+				D1091B1327D143922250A178BDB20F96 /* ios */,
+			);
+			name = geolocator;
+			path = geolocator;
+			sourceTree = "<group>";
+		};
+		07D5B5D2DEE7A728AEF0C4AB6E9F0E97 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				2BC00939B0E213970C33E0F0B1B98B55 /* Users */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		0A203175A99BB9008FEB381346629049 /* fssm-offline */ = {
+			isa = PBXGroup;
+			children = (
+				CC01FE3FCEB3298F09BCE0F8C4024CF7 /* 04_Code */,
+			);
+			name = "fssm-offline";
+			path = "fssm-offline";
 			sourceTree = "<group>";
 		};
 		0E4F3F1B118D35DC56E4CDBA7FE3960B /* MTBBarcodeScanner */ = {
@@ -230,289 +370,498 @@
 			path = MTBBarcodeScanner;
 			sourceTree = "<group>";
 		};
-		0F170234817768D340D0A98C63EAF91B /* .. */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4C97408C694F92FF5385D0F368609296 /* .. */,
+				EB723DFA0F676FD1F7DED7F8E5AAAD04 /* iOS */,
 			);
-			name = ..;
-			path = ..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		12EFA88E181BE5C2AB394DC46BBD5D24 /* 04_Code */ = {
+		12D1C07A775D83CF66AF6F063B53B2DA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4EB557F2FB186207423A6F659DB5C95C /* fssm-parent */,
+				C16D6F081730328810C1EF7DCB73446D /* CLLocationExtensions.swift */,
+				D028C7CFD81D0CE2FC9D9F833AAED0A2 /* CLPlacemarkExtensions.swift */,
+				D817FA8BDCBC2786F5424889A88CF222 /* Codec.swift */,
+				0926FDF9F605971B254E5D5D90CD8C2C /* GeolocatorPlugin.h */,
+				FC30420EE971940BBBE306B94BFFA302 /* GeolocatorPlugin.m */,
+				8805541FF759E6016569795BEB271DBF /* SwiftGeolocatorPlugin.swift */,
+				1E6AA07F4CBFADD39672D1C7C13C4CC9 /* TaskContext.swift */,
+				7CE2C7B307F4D1BC6A6024450D34D0D5 /* TaskProtocol.swift */,
+				A8FB36075F3A097A7A787D871B64DEFD /* Data */,
+				36446CE81796E46C09D45B60B1B07707 /* Tasks */,
 			);
-			name = 04_Code;
-			path = 04_Code;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		154C3BC9FBE0739705E6E948D66500AF /* .. */ = {
+		12D7F596EE2D4E5E7395EEC1E1188BB5 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				E153DBEB4BCFEC8EAADFDED9E27D8217 /* Users */,
-			);
-			name = ..;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		1C79DB53CD07E661221493B5C6E0CF0B /* Pods-Runner */ = {
-			isa = PBXGroup;
-			children = (
-				7AD2F72BE79A2D928E85F9EB9FB613FA /* Pods-Runner-acknowledgements.markdown */,
-				14E58FE88BDE74696DA18D71709505C9 /* Pods-Runner-acknowledgements.plist */,
-				468664057D17C890473F3825BE8B6822 /* Pods-Runner-dummy.m */,
-				A1153EC5FE504BE5C724E20E9B411E90 /* Pods-Runner-frameworks.sh */,
-				A84633CB40E489EF4DD77D43434D3024 /* Pods-Runner-resources.sh */,
-				1B4CEFB7A7C39037B5DFAFCE375062E1 /* Pods-Runner.debug.xcconfig */,
-				5C42D986846F74B4DB78535F7182D117 /* Pods-Runner.release.xcconfig */,
-			);
-			name = "Pods-Runner";
-			path = "Target Support Files/Pods-Runner";
-			sourceTree = "<group>";
-		};
-		1CC2DEA8A883EDA3511E54F5E9D42C7B /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				B5079A92F210300AE9E18D9CBA801DF7 /* AVFoundation.framework */,
-				B32193462E3D1E44752F72008361CCBF /* QuartzCore.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		208A5F71F0E50A16DFD02110BE9DDD76 /* fssm_public_apps */ = {
-			isa = PBXGroup;
-			children = (
-				844843707D77B804246F7579B6CE2E8B /* ios */,
-			);
-			name = fssm_public_apps;
-			path = fssm_public_apps;
-			sourceTree = "<group>";
-		};
-		218C41E5F929664611F16BF90DB027A3 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				A57900A539586FA0A92F689C0302CC02 /* .. */,
+				1308812BBD71752F8B606B7DD3B58B04 /* .. */,
 			);
 			name = ..;
 			path = "../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/barcode_scan-0.0.4/ios";
 			sourceTree = "<group>";
 		};
-		247E85650DDBFB79CA758D392EEFD284 /* Classes */ = {
+		1308812BBD71752F8B606B7DD3B58B04 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				21CB51D1BB52AB32142BCBF56D88B353 /* BarcodeScannerViewController.h */,
-				40372B14CB52EC89172E8C36CD521147 /* BarcodeScannerViewController.m */,
-				001A912A3B5E809BB75E36722F82B1F6 /* BarcodeScannerViewControllerDelegate.h */,
-				65B030AB53052364067EA363A884000E /* BarcodeScanPlugin.h */,
-				2265A0E45222F01F868C8E3EA242DF30 /* BarcodeScanPlugin.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		3B22A971789B77ADFF80842B1A4E9FBA /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				5F1425C83F6D5FBB7D2AC73CA171EA11 /* Operation.h */,
-				BC53D349F5BBDFE99466FA303949E279 /* Operation.m */,
-				D43DAFE29DE60575F5161C828BFF6E9D /* SqflitePlugin.h */,
-				5E112C4F8929C2DE7202815C40FE05B2 /* SqflitePlugin.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1CC2DEA8A883EDA3511E54F5E9D42C7B /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4C97408C694F92FF5385D0F368609296 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				9772F321CF5031F34F274DC212012E22 /* .. */,
+				EC57E8428B99EEEE6FBD34E6C4B3520A /* .. */,
 			);
 			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		4EB557F2FB186207423A6F659DB5C95C /* fssm-parent */ = {
+		15054DC44DB3A86C3B245C095F66D0FD /* sqflite */ = {
 			isa = PBXGroup;
 			children = (
-				0068B677E4906FEEF8625031673A6FBE /* fssm-public */,
+				A4323C699D9211F35D82E495F575B8A4 /* .. */,
+				9C0E00F8C98F245AD8EC13D6003B0C34 /* Pod */,
+				91BF1DDFA03AA2DE88A5018EF49D0CA2 /* Support Files */,
+			);
+			name = sqflite;
+			path = ../.symlinks/plugins/sqflite/ios;
+			sourceTree = "<group>";
+		};
+		1AC8D4B61C3DF358AC0B13740F5CD0CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44A6F9D7A8362BB89DAEDCF8D9783C36 /* geolocation.modulemap */,
+				46795E6971B6846CBB5ED4FEEED5F977 /* geolocation.xcconfig */,
+				24B43C4F643857AC273D85EB5702285E /* geolocation-dummy.m */,
+				23C05C81855DB553A9EEE09EAD1B0832 /* geolocation-prefix.pch */,
+				73CA7C9EC0ABAA9AD9A8D9BF3F852EE4 /* geolocation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/geolocation";
+			sourceTree = "<group>";
+		};
+		1DE271EFEDAC00459DC3478A9EF71F19 /* fssm-parent */ = {
+			isa = PBXGroup;
+			children = (
+				7854792484D4FB149B4F3FF8BCF19BCD /* fssm-public */,
 			);
 			name = "fssm-parent";
 			path = "fssm-parent";
 			sourceTree = "<group>";
 		};
-		5219EE1230891CD88677509A6BBF8A81 /* Frameworks */ = {
+		1EAD388878E6FEDE205FBECB6E3B0422 /* fssm-parent */ = {
 			isa = PBXGroup;
 			children = (
-				7298134CD349F852C19C85E6ED6BCCF2 /* Flutter.framework */,
+				41094AB2DBBDBBC17C1B387F09F08A34 /* fssm-public */,
 			);
-			name = Frameworks;
+			name = "fssm-parent";
+			path = "fssm-parent";
 			sourceTree = "<group>";
 		};
-		559F3A719D4DDC03CDF2C0117E9EA198 /* 04_Code */ = {
+		2475249708C078819B21BDB5C2618DD6 /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				E1E691C5964003235C5F2D407F380F22 /* fssm-parent */,
-			);
-			name = 04_Code;
-			path = 04_Code;
-			sourceTree = "<group>";
-		};
-		57F53B7DBD84D7AC9157435BF23FF65A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CCA96AB173B63030C68CE567E72493FE /* barcode_scan.xcconfig */,
-				7FB2E24B0863D21AD7BF2C22CAC2E2EB /* barcode_scan-dummy.m */,
-				81A98342CEDB2530F70F941027F15411 /* barcode_scan-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../../../../Pods/Target Support Files/barcode_scan";
-			sourceTree = "<group>";
-		};
-		590BD23DB470C43F37FC783EA5B73EF4 /* fssm-public */ = {
-			isa = PBXGroup;
-			children = (
-				C99D9E7988AAC18B880CF2DAE4DA98B7 /* fssm_public_apps */,
-			);
-			name = "fssm-public";
-			path = "fssm-public";
-			sourceTree = "<group>";
-		};
-		5941D19FE6FE2A6DB448A755C7B3F8D5 /* fssm-offline */ = {
-			isa = PBXGroup;
-			children = (
-				12EFA88E181BE5C2AB394DC46BBD5D24 /* 04_Code */,
-			);
-			name = "fssm-offline";
-			path = "fssm-offline";
-			sourceTree = "<group>";
-		};
-		5CFB79B52F7673F0D5B9A3710C9E672A /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				855E817D5026A93297D736A55ED9FEE7 /* .. */,
-			);
-			name = ..;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		6276BDF4AEEBE7163429CDB73B6980D7 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1C79DB53CD07E661221493B5C6E0CF0B /* Pods-Runner */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		65DF734F66F63BF4D7FA384520029DED /* dira */ = {
-			isa = PBXGroup;
-			children = (
-				5941D19FE6FE2A6DB448A755C7B3F8D5 /* fssm-offline */,
-			);
-			name = dira;
-			path = dira;
-			sourceTree = "<group>";
-		};
-		6E4010195F255D2997FAF42B685DDB3A /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				80C2F19E93DC25BB382843B3D3403DB6 /* .. */,
-			);
-			name = ..;
-			path = "../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.0+1/ios";
-			sourceTree = "<group>";
-		};
-		715D7B5B7180D1CAE7BCA96E3A8F990E /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				3B22A971789B77ADFF80842B1A4E9FBA /* Classes */,
+				59B3CBB9D0A4CAA84C58B156EA6A7A16 /* .symlinks */,
 			);
 			name = ios;
 			path = ios;
 			sourceTree = "<group>";
 		};
-		72D36FB50BD0657A94D8741F75C7EC07 /* sqflite */ = {
+		2A6EF735C24912D588B65FE57459AEF4 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				715D7B5B7180D1CAE7BCA96E3A8F990E /* ios */,
+				96AFC62FDC998DF5700DF3EDD559BB97 /* .. */,
+			);
+			name = ..;
+			path = "../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocation-0.2.1/ios";
+			sourceTree = "<group>";
+		};
+		2BC00939B0E213970C33E0F0B1B98B55 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				6BF425A3444121911E9785E7C36E8CC1 /* dira */,
+			);
+			name = Users;
+			path = Users;
+			sourceTree = "<group>";
+		};
+		31D1178D7A415BB7371E4BF9B4B875E8 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				989717235F418DCE4BA64F3185059C63 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		36446CE81796E46C09D45B60B1B07707 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				34FABE9E0C9596E1AC9E2E647B91634A /* GeocodeTask.swift */,
+				B4B7A051C656A4A6DF949E7A66E0DB45 /* LocationTask.swift */,
+			);
+			name = Tasks;
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		39750E90D123A34CC3759DE752E6130B /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				59AD82A62A89E7D256D44D96CA4B7EC3 /* Users */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3A507BC63BCA0AF19CF04C0469EBA714 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4898A8474813BF9C462F7237E33D7B4A /* Codec.swift */,
+				652033174B36E1D30D99791C3F850732 /* GeolocationPlugin.h */,
+				D49CCC41E0D7DC8D40EC2B09A10D168B /* GeolocationPlugin.m */,
+				29F72419D52CCF79A4E0436A1563E3E5 /* LocationChannel.swift */,
+				946AAC787C211F8098B3FEDBDE70E3CC /* SwiftGeolocationPlugin.swift */,
+				E3BDAF415373D8A6CA647D1756ED211A /* Data */,
+				55E40C8D25D5CFC9D8DFDE5B38A73AA9 /* Location */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3AB712275C614E103AD7C9C77A3046A5 /* fssm-public */ = {
+			isa = PBXGroup;
+			children = (
+				F358849490D94ACDCB780C11045DAFE2 /* fssm_public_apps */,
+			);
+			name = "fssm-public";
+			path = "fssm-public";
+			sourceTree = "<group>";
+		};
+		3EF359A96AF5F29CEE070A2A3D7E40AA /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				82E7C89028EA678016099F6950A2A3A1 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3FEBCBBFA75EB2B4C80930C93FC014D1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8A359C7A4F6F06481CC180818906C639 /* geolocation.podspec */,
+				1813B0003E07DEB046AF1B82EE131886 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		41094AB2DBBDBBC17C1B387F09F08A34 /* fssm-public */ = {
+			isa = PBXGroup;
+			children = (
+				6523EC27A4A551173B350898D3836461 /* fssm_public_apps */,
+			);
+			name = "fssm-public";
+			path = "fssm-public";
+			sourceTree = "<group>";
+		};
+		43661BB0C769042AFB2FB899648CB4E4 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				478D89ED0B7AD407A0BA4BC1368562C1 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		44220697186DD3A9353F32BC8DF9403C /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				6F4A67433E30227C0A16FC2241AA2B34 /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		478D89ED0B7AD407A0BA4BC1368562C1 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				BE2E5926FCC02CD6FE5DC05717C733B8 /* Users */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		48A5EB9E2CDE0CB3D0B0AD7ACFD9C070 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				3A507BC63BCA0AF19CF04C0469EBA714 /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		4BB0CB74CF2456DD037FD1F124FDC222 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				3EF359A96AF5F29CEE070A2A3D7E40AA /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4DE5070EA02B214A803E2A589C6EC1D2 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				FE8E240906558DE432785AA86515AE3A /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		509D1A2171320D9DB41570B547A64374 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				B332589A3757A3850A292121372C480D /* Users */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		512AB51E7CB414E8A931F87FB74778DE /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				956035059D606E08CDDB6824262BCEB7 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		55E40C8D25D5CFC9D8DFDE5B38A73AA9 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				C16742D699DDEF155D64FA9B2A5ED46B /* LocationClient.swift */,
+				903F8CC525AEB886068DBC9797EE4E1B /* LocationExtension.swift */,
+				D27675D677F45B073CD395648A29A8E7 /* LocationHelper.swift */,
+			);
+			name = Location;
+			path = Location;
+			sourceTree = "<group>";
+		};
+		59AD82A62A89E7D256D44D96CA4B7EC3 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				BD27EAB8243961666F2AD9FB6DFED4AE /* dira */,
+			);
+			name = Users;
+			path = Users;
+			sourceTree = "<group>";
+		};
+		59B3CBB9D0A4CAA84C58B156EA6A7A16 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				F27B5609180BC76CF43AD79D10E17300 /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		59F56FBE82C56CFBE3DC4951655E5E0B /* fssm-parent */ = {
+			isa = PBXGroup;
+			children = (
+				3AB712275C614E103AD7C9C77A3046A5 /* fssm-public */,
+			);
+			name = "fssm-parent";
+			path = "fssm-parent";
+			sourceTree = "<group>";
+		};
+		5C7CAE8605DB4D7FD424F10D81481892 /* fssm-offline */ = {
+			isa = PBXGroup;
+			children = (
+				C3793C9ABA2B54FA9C046BBB56B3FCD9 /* 04_Code */,
+			);
+			name = "fssm-offline";
+			path = "fssm-offline";
+			sourceTree = "<group>";
+		};
+		6523EC27A4A551173B350898D3836461 /* fssm_public_apps */ = {
+			isa = PBXGroup;
+			children = (
+				2475249708C078819B21BDB5C2618DD6 /* ios */,
+			);
+			name = fssm_public_apps;
+			path = fssm_public_apps;
+			sourceTree = "<group>";
+		};
+		66AF1D7A95072474B333D1A96578D7CC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01F2000D0126C4DC140FCF75A603A574 /* barcode_scan */,
+				8BE3E19684B602E37F16B419E35F4D59 /* Flutter */,
+				7A10FA3FAFD2F4FFA2755F2DE058FB40 /* geolocation */,
+				D4E844A871FA0ED186D9FD5BF9C46044 /* geolocator */,
+				15054DC44DB3A86C3B245C095F66D0FD /* sqflite */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6BF425A3444121911E9785E7C36E8CC1 /* dira */ = {
+			isa = PBXGroup;
+			children = (
+				5C7CAE8605DB4D7FD424F10D81481892 /* fssm-offline */,
+			);
+			name = dira;
+			path = dira;
+			sourceTree = "<group>";
+		};
+		6F4A67433E30227C0A16FC2241AA2B34 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EDB1BF6A4E0DC9D990A8DA5FF617972F /* BarcodeScannerViewController.h */,
+				811E1A4DA060EBD2A255131AA868F0B1 /* BarcodeScannerViewController.m */,
+				F3E505F715494393367D61D705A0AE83 /* BarcodeScannerViewControllerDelegate.h */,
+				9F6823ADB843845B56C07B4AA3DD1045 /* BarcodeScanPlugin.h */,
+				8C0456D91B909576339238572C76D066 /* BarcodeScanPlugin.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6F7349015A759E55F4A8C09636C067C0 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				067933D641D1812072A899FC63AFED8C /* geolocator */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		6FE771B46A7818E6AD9B8C38EDA6A6BC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2C22CCAFC4273788AAE62785B2F32107 /* Flutter.podspec */,
+				92F1CF70E8DFBCE9687E830201DCD16B /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		748E2FDDFE2285E6396ECE0BC6BFC8F1 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				07D5B5D2DEE7A728AEF0C4AB6E9F0E97 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7854792484D4FB149B4F3FF8BCF19BCD /* fssm-public */ = {
+			isa = PBXGroup;
+			children = (
+				A0E1973A6C4C88C43D902257D31C0996 /* fssm_public_apps */,
+			);
+			name = "fssm-public";
+			path = "fssm-public";
+			sourceTree = "<group>";
+		};
+		787FED18CFF18BF6B5BC9477CFD797F3 /* sqflite */ = {
+			isa = PBXGroup;
+			children = (
+				0301A13334D286AB93FD2AC4959D36D6 /* ios */,
 			);
 			name = sqflite;
 			path = sqflite;
 			sourceTree = "<group>";
 		};
-		7B6063EA74B298BDA08C0883C764E3A1 /* .symlinks */ = {
+		7A10FA3FAFD2F4FFA2755F2DE058FB40 /* geolocation */ = {
 			isa = PBXGroup;
 			children = (
-				01673B1788D529951E79BCB0E1BA28D8 /* plugins */,
+				2A6EF735C24912D588B65FE57459AEF4 /* .. */,
+				3FEBCBBFA75EB2B4C80930C93FC014D1 /* Pod */,
+				1AC8D4B61C3DF358AC0B13740F5CD0CA /* Support Files */,
 			);
-			name = .symlinks;
-			path = .symlinks;
+			name = geolocation;
+			path = ../.symlinks/plugins/geolocation/ios;
+			sourceTree = "<group>";
+		};
+		7BA2ACD3D8C06C1A27D016A05B820A56 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				CC2C7EC6BEBB4CF5461A05A12E5FF49F /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		7BDA85DB45E41F017F7E7B2284A750C3 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				39750E90D123A34CC3759DE752E6130B /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7D9F01B7CAF4E40078724C5F6E7EFBA6 /* barcode_scan */ = {
+			isa = PBXGroup;
+			children = (
+				44220697186DD3A9353F32BC8DF9403C /* ios */,
+			);
+			name = barcode_scan;
+			path = barcode_scan;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F513BFE2C45F315B8DEB3F20F7F1F914 /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				66AF1D7A95072474B333D1A96578D7CC /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				FF9280CEEEF4EA634E2A14B253746E6C /* Pods */,
-				A64E580724656F87F11F71A343EDB12E /* Products */,
-				6276BDF4AEEBE7163429CDB73B6980D7 /* Targets Support Files */,
+				D5A591EBD80789518D371B338C358961 /* Products */,
+				D579369FE42F9950BFEAB8C3C83C97E1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		80BC97F363E4E99F99834C2B80265F34 /* ios */ = {
+		7E95F16A143BEA9F4C67F657FA02956E /* .symlinks */ = {
 			isa = PBXGroup;
 			children = (
-				247E85650DDBFB79CA758D392EEFD284 /* Classes */,
+				ED71E2BBDFE294F530FD276A3B0246A0 /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		7F275F2B3A1F965164AB7140E483FB2D /* fssm-parent */ = {
+			isa = PBXGroup;
+			children = (
+				E2857CC06DDFBD401AAF2A1F47562B5E /* fssm-public */,
+			);
+			name = "fssm-parent";
+			path = "fssm-parent";
+			sourceTree = "<group>";
+		};
+		815C1B6D1658667D37D7A764E6716C4F /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				B8285EA39CD443DB9B33A1B456C3F42C /* .. */,
+			);
+			name = ..;
+			path = "../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-1.2.2/ios";
+			sourceTree = "<group>";
+		};
+		82E7C89028EA678016099F6950A2A3A1 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				C73F91D05AABF1F7FC00482B455F995F /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8AD0D1DEFD83D8CFD7C22555F323C776 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				7E95F16A143BEA9F4C67F657FA02956E /* .symlinks */,
 			);
 			name = ios;
 			path = ios;
-			sourceTree = "<group>";
-		};
-		80C2F19E93DC25BB382843B3D3403DB6 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				AA0E1C3C8CD83B8A25348A7FD716645D /* .. */,
-			);
-			name = ..;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		844843707D77B804246F7579B6CE2E8B /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				01B05AF20EF191C821E197CE9F4CAA94 /* .symlinks */,
-			);
-			name = ios;
-			path = ios;
-			sourceTree = "<group>";
-		};
-		855E817D5026A93297D736A55ED9FEE7 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				E8AF84478227230C4A825C1A6AA9C0A5 /* .. */,
-			);
-			name = ..;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		88CEDEF6257B6BBD70C0B3D96BD234CE /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				FAD6149DE9173E30C7A86D630FA9D8F7 /* .. */,
-			);
-			name = ..;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		8ADA1105A6102E5D31072EEE99C9B8D0 /* Support Files */ = {
@@ -526,90 +875,133 @@
 			path = "../Target Support Files/FMDB";
 			sourceTree = "<group>";
 		};
-		95938E77473C5D4F8779720F7D5C217C /* sqflite */ = {
+		8BE3E19684B602E37F16B419E35F4D59 /* Flutter */ = {
 			isa = PBXGroup;
 			children = (
-				6E4010195F255D2997FAF42B685DDB3A /* .. */,
-				E5AE3294ECA5F142125A61CEAE35A433 /* Pod */,
-				DAA5FF340681878B9E00B8449159E983 /* Support Files */,
+				AFAF8CF35BBBA198C3985B2441FE5C0F /* Frameworks */,
+				6FE771B46A7818E6AD9B8C38EDA6A6BC /* Pod */,
 			);
-			name = sqflite;
-			path = ../.symlinks/plugins/sqflite/ios;
+			name = Flutter;
+			path = ../.symlinks/flutter/ios;
 			sourceTree = "<group>";
 		};
-		9772F321CF5031F34F274DC212012E22 /* .. */ = {
+		91BF1DDFA03AA2DE88A5018EF49D0CA2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				88CEDEF6257B6BBD70C0B3D96BD234CE /* .. */,
+				F645FD5E548024286B762562F00DA569 /* sqflite.xcconfig */,
+				0D233F2D5D370C8D7E7D50DE89A0BC5C /* sqflite-dummy.m */,
+				7EE84302DAB81EA8EC9DDF5DBA113F17 /* sqflite-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/sqflite";
+			sourceTree = "<group>";
+		};
+		92D99DA339F1E1CC5373D07E6AF24AE4 /* geolocation */ = {
+			isa = PBXGroup;
+			children = (
+				48A5EB9E2CDE0CB3D0B0AD7ACFD9C070 /* ios */,
+			);
+			name = geolocation;
+			path = geolocation;
+			sourceTree = "<group>";
+		};
+		956035059D606E08CDDB6824262BCEB7 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				43661BB0C769042AFB2FB899648CB4E4 /* .. */,
 			);
 			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		9CCA3DEEA1612449E2F5DF5184017DB4 /* barcode_scan */ = {
+		96AFC62FDC998DF5700DF3EDD559BB97 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				80BC97F363E4E99F99834C2B80265F34 /* ios */,
-			);
-			name = barcode_scan;
-			path = barcode_scan;
-			sourceTree = "<group>";
-		};
-		A003D8FCE8517F38160380A6D8BA5B4D /* fssm-offline */ = {
-			isa = PBXGroup;
-			children = (
-				559F3A719D4DDC03CDF2C0117E9EA198 /* 04_Code */,
-			);
-			name = "fssm-offline";
-			path = "fssm-offline";
-			sourceTree = "<group>";
-		};
-		A0DB992C2761E21AF99D8FB1AAEAEC34 /* Users */ = {
-			isa = PBXGroup;
-			children = (
-				65DF734F66F63BF4D7FA384520029DED /* dira */,
-			);
-			name = Users;
-			path = Users;
-			sourceTree = "<group>";
-		};
-		A57900A539586FA0A92F689C0302CC02 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				0F170234817768D340D0A98C63EAF91B /* .. */,
+				4BB0CB74CF2456DD037FD1F124FDC222 /* .. */,
 			);
 			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		A64E580724656F87F11F71A343EDB12E /* Products */ = {
+		989717235F418DCE4BA64F3185059C63 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				2E985C61F26BC6D589793E5D91059B75 /* libbarcode_scan.a */,
-				C2AC49B822273034E245C17C4E67FEC4 /* libFMDB.a */,
-				3D09555390101EAF31F789D30040E52C /* libMTBBarcodeScanner.a */,
-				747E713CC2446A37C407E9F3CCF5E896 /* libPods-Runner.a */,
-				DFF433DC79EF28DB5BD876CBA9569FF6 /* libsqflite.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A826CEA3CD42E9C9C3D946C6E4678F8B /* plugins */ = {
-			isa = PBXGroup;
-			children = (
-				72D36FB50BD0657A94D8741F75C7EC07 /* sqflite */,
-			);
-			name = plugins;
-			path = plugins;
-			sourceTree = "<group>";
-		};
-		AA0E1C3C8CD83B8A25348A7FD716645D /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				E7247FBD30DC9802E75863C51340F98B /* .. */,
+				748E2FDDFE2285E6396ECE0BC6BFC8F1 /* .. */,
 			);
 			name = ..;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		9A5E102EAD73A50E30F88B7471F3B2C9 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				C9A173119AEE76074738E339677D1032 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9C0E00F8C98F245AD8EC13D6003B0C34 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A4EABE3FC891606A8FD261B02F660327 /* LICENSE */,
+				B2B08AA50A492B703E33BF203104BFC8 /* sqflite.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A0E1973A6C4C88C43D902257D31C0996 /* fssm_public_apps */ = {
+			isa = PBXGroup;
+			children = (
+				7BA2ACD3D8C06C1A27D016A05B820A56 /* ios */,
+			);
+			name = fssm_public_apps;
+			path = fssm_public_apps;
+			sourceTree = "<group>";
+		};
+		A3F94745DF930ACA182295954872E599 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BB315EF1F9BC5CFEF1D0D3494D09734F /* barcode_scan.podspec */,
+				F8BF6F6146EFBCE5E1144B332B9380A3 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A4323C699D9211F35D82E495F575B8A4 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				F8298AE333417113BCC19B114AF773E7 /* .. */,
+			);
+			name = ..;
+			path = "../../../../../../../../../../../../Applications/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-0.11.0+1/ios";
+			sourceTree = "<group>";
+		};
+		A689305EBAA57FC54CBAA948E2B9F804 /* fssm_public_apps */ = {
+			isa = PBXGroup;
+			children = (
+				BD410427EF20E4B63E40232BC13098F2 /* ios */,
+			);
+			name = fssm_public_apps;
+			path = fssm_public_apps;
+			sourceTree = "<group>";
+		};
+		A7D73EEF68F605E533033D8484725B26 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				509D1A2171320D9DB41570B547A64374 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A8FB36075F3A097A7A787D871B64DEFD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E1EF24A75354D0315DF7D4B983D1A8A1 /* LocationOptions.swift */,
+			);
+			name = Data;
+			path = Data;
 			sourceTree = "<group>";
 		};
 		AB9DEC89FD4C54B689A2761BE3D648AE /* FMDB */ = {
@@ -622,126 +1014,299 @@
 			path = FMDB;
 			sourceTree = "<group>";
 		};
-		B2D82CD484B62C06A648E89D1EC4DC78 /* Flutter */ = {
+		ACC1ED07C548E079D7DE367CB978B440 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5219EE1230891CD88677509A6BBF8A81 /* Frameworks */,
-				BF6EB730C9B75618D7FA99734A7AC21A /* Pod */,
-			);
-			name = Flutter;
-			path = ../.symlinks/flutter/ios;
-			sourceTree = "<group>";
-		};
-		BF6EB730C9B75618D7FA99734A7AC21A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4B2C2EBB5F579EC88174515A81CAB2BD /* Flutter.podspec */,
-				DE303DE58307D7BD8D5CB5642063CFEB /* LICENSE */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		C76F3CFB688E18E2250B3544EBEF4C75 /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				7B6063EA74B298BDA08C0883C764E3A1 /* .symlinks */,
-			);
-			name = ios;
-			path = ios;
-			sourceTree = "<group>";
-		};
-		C99D9E7988AAC18B880CF2DAE4DA98B7 /* fssm_public_apps */ = {
-			isa = PBXGroup;
-			children = (
-				C76F3CFB688E18E2250B3544EBEF4C75 /* ios */,
-			);
-			name = fssm_public_apps;
-			path = fssm_public_apps;
-			sourceTree = "<group>";
-		};
-		D289168D637D318F835C9B532DBC1226 /* dira */ = {
-			isa = PBXGroup;
-			children = (
-				A003D8FCE8517F38160380A6D8BA5B4D /* fssm-offline */,
-			);
-			name = dira;
-			path = dira;
-			sourceTree = "<group>";
-		};
-		DAA5FF340681878B9E00B8449159E983 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E3CA32E0E92614EFFBAA1B89A09DF417 /* sqflite.xcconfig */,
-				671804D41AC3E3D5827644749C8ACCDB /* sqflite-dummy.m */,
-				5CFD0B91D668CD68D2C4C7FD5BF7858E /* sqflite-prefix.pch */,
+				3ACD718E3A138DE72ACB837F88F33B97 /* geolocator.modulemap */,
+				CEEFA43E4F7885377A6EE926291186DE /* geolocator.xcconfig */,
+				648D5D125AA5C443ABE896E17F256E41 /* geolocator-dummy.m */,
+				D38B276B6FC0EF680B4C923315858E8F /* geolocator-prefix.pch */,
+				D8016BBDBED36363156638A5720F03B6 /* geolocator-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../../../../Pods/Target Support Files/sqflite";
+			path = "../../../../Pods/Target Support Files/geolocator";
 			sourceTree = "<group>";
 		};
-		DF6BE365480FAE0D6C3D4BC3AF36CE2A /* barcode_scan */ = {
+		AFAF8CF35BBBA198C3985B2441FE5C0F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				218C41E5F929664611F16BF90DB027A3 /* .. */,
-				02374ACA07071CDC5E072D2D730369C8 /* Pod */,
-				57F53B7DBD84D7AC9157435BF23FF65A /* Support Files */,
+				1B05016F4A61A5BA609F143D080F16ED /* Flutter.framework */,
 			);
-			name = barcode_scan;
-			path = ../.symlinks/plugins/barcode_scan/ios;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E153DBEB4BCFEC8EAADFDED9E27D8217 /* Users */ = {
+		B332589A3757A3850A292121372C480D /* Users */ = {
 			isa = PBXGroup;
 			children = (
-				D289168D637D318F835C9B532DBC1226 /* dira */,
+				03F14AAE492127BEBD34E8C66C2CF276 /* dira */,
 			);
 			name = Users;
 			path = Users;
 			sourceTree = "<group>";
 		};
-		E1E691C5964003235C5F2D407F380F22 /* fssm-parent */ = {
+		B8285EA39CD443DB9B33A1B456C3F42C /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				590BD23DB470C43F37FC783EA5B73EF4 /* fssm-public */,
-			);
-			name = "fssm-parent";
-			path = "fssm-parent";
-			sourceTree = "<group>";
-		};
-		E3D4FCCAED6FB7BF24FAB1DEF54836EC /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				A0DB992C2761E21AF99D8FB1AAEAEC34 /* Users */,
+				DA784CD953F9CC9F322148BA1259F0C5 /* .. */,
 			);
 			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		E5AE3294ECA5F142125A61CEAE35A433 /* Pod */ = {
+		BD27EAB8243961666F2AD9FB6DFED4AE /* dira */ = {
 			isa = PBXGroup;
 			children = (
-				754B56C7F63531A2AF25B1C202CDEF27 /* LICENSE */,
-				6B3F3E5BD94986EA6CD364B8F1CD9105 /* sqflite.podspec */,
+				FEC2D9BA953DD1D58E8A170B367F85EE /* fssm-offline */,
 			);
-			name = Pod;
+			name = dira;
+			path = dira;
 			sourceTree = "<group>";
 		};
-		E7247FBD30DC9802E75863C51340F98B /* .. */ = {
+		BD410427EF20E4B63E40232BC13098F2 /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				5CFB79B52F7673F0D5B9A3710C9E672A /* .. */,
+				E41062E8BE47F337E976A9917932A290 /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		BE2E5926FCC02CD6FE5DC05717C733B8 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				DF4A984DB0B7E1F357A6753458C121A3 /* dira */,
+			);
+			name = Users;
+			path = Users;
+			sourceTree = "<group>";
+		};
+		C08EE6A3F4A564A1F852A4B7DB16FEB8 /* 04_Code */ = {
+			isa = PBXGroup;
+			children = (
+				1EAD388878E6FEDE205FBECB6E3B0422 /* fssm-parent */,
+			);
+			name = 04_Code;
+			path = 04_Code;
+			sourceTree = "<group>";
+		};
+		C3793C9ABA2B54FA9C046BBB56B3FCD9 /* 04_Code */ = {
+			isa = PBXGroup;
+			children = (
+				59F56FBE82C56CFBE3DC4951655E5E0B /* fssm-parent */,
+			);
+			name = 04_Code;
+			path = 04_Code;
+			sourceTree = "<group>";
+		};
+		C73F91D05AABF1F7FC00482B455F995F /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				A7D73EEF68F605E533033D8484725B26 /* .. */,
 			);
 			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		E8AF84478227230C4A825C1A6AA9C0A5 /* .. */ = {
+		C9A173119AEE76074738E339677D1032 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				E3D4FCCAED6FB7BF24FAB1DEF54836EC /* .. */,
+				7BDA85DB45E41F017F7E7B2284A750C3 /* .. */,
 			);
 			name = ..;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		CC01FE3FCEB3298F09BCE0F8C4024CF7 /* 04_Code */ = {
+			isa = PBXGroup;
+			children = (
+				7F275F2B3A1F965164AB7140E483FB2D /* fssm-parent */,
+			);
+			name = 04_Code;
+			path = 04_Code;
+			sourceTree = "<group>";
+		};
+		CC2C7EC6BEBB4CF5461A05A12E5FF49F /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				6F7349015A759E55F4A8C09636C067C0 /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		D1091B1327D143922250A178BDB20F96 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				12D1C07A775D83CF66AF6F063B53B2DA /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		D4E844A871FA0ED186D9FD5BF9C46044 /* geolocator */ = {
+			isa = PBXGroup;
+			children = (
+				815C1B6D1658667D37D7A764E6716C4F /* .. */,
+				05D123C697C712E8A90F61FDC8F0D05F /* Pod */,
+				ACC1ED07C548E079D7DE367CB978B440 /* Support Files */,
+			);
+			name = geolocator;
+			path = ../.symlinks/plugins/geolocator/ios;
+			sourceTree = "<group>";
+		};
+		D579369FE42F9950BFEAB8C3C83C97E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E40F22889674FCA0D8175A78DC1360BE /* Pods-Runner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D5A591EBD80789518D371B338C358961 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96270F008C8C749F1E04F6335B99F3AE /* libbarcode_scan.a */,
+				3BB924868686C0E9DE28F64C9C414505 /* libFMDB.a */,
+				EB608DAB47D9857EFB3C942DC7951008 /* libgeolocation.a */,
+				007756F535F51DDBA635EE06F6B61556 /* libgeolocator.a */,
+				EBFB5747E465F9D5C8288516CA45464D /* libMTBBarcodeScanner.a */,
+				4F1F7A5072880261E84F88936E224189 /* libPods-Runner.a */,
+				AA76D172D3ABE941DEBE57FD14A55293 /* libsqflite.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA784CD953F9CC9F322148BA1259F0C5 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				E31B7FF710E8CDC39006AC81AF5F618A /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DF4A984DB0B7E1F357A6753458C121A3 /* dira */ = {
+			isa = PBXGroup;
+			children = (
+				E84ABF90A46E9329CFFB73054E948919 /* fssm-offline */,
+			);
+			name = dira;
+			path = dira;
+			sourceTree = "<group>";
+		};
+		E2857CC06DDFBD401AAF2A1F47562B5E /* fssm-public */ = {
+			isa = PBXGroup;
+			children = (
+				A689305EBAA57FC54CBAA948E2B9F804 /* fssm_public_apps */,
+			);
+			name = "fssm-public";
+			path = "fssm-public";
+			sourceTree = "<group>";
+		};
+		E31B7FF710E8CDC39006AC81AF5F618A /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				512AB51E7CB414E8A931F87FB74778DE /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E3BDAF415373D8A6CA647D1756ED211A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				994ED576286C9BD37C0D79839FEB8914 /* Accuracy.swift */,
+				A4DB993BAB0A53EC99B9F69B76BD738E /* Location.swift */,
+				73BA3DA351B35CE4EE0E2876614D461A /* LocationUpdatesRequest.swift */,
+				B26E87652CA8C449B155971253B3BF4E /* Permission.swift */,
+				5E57883F7B214671BFD8BB761151B74A /* Result.swift */,
+			);
+			name = Data;
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E40F22889674FCA0D8175A78DC1360BE /* Pods-Runner */ = {
+			isa = PBXGroup;
+			children = (
+				F43194E5A5B2710345EAE99A473DC934 /* Pods-Runner.modulemap */,
+				C2C17E8A0E5734C5ACAA73BB584CD78E /* Pods-Runner-acknowledgements.markdown */,
+				894E5BD7CEAC3ACC2CFD6F3A77B72D77 /* Pods-Runner-acknowledgements.plist */,
+				A449D6E98CE2F5DF024A6DD3C03AEBAD /* Pods-Runner-dummy.m */,
+				2884521B3CED8F4FBA5C52F4EB90F7DD /* Pods-Runner-frameworks.sh */,
+				E36F938CBF443C612BC65D8811D884AA /* Pods-Runner-resources.sh */,
+				4AE5691C74560ADE1FC5A2C69B310DC2 /* Pods-Runner-umbrella.h */,
+				3F991BEC024C174DC2D3ECF30DD21C91 /* Pods-Runner.debug.xcconfig */,
+				9503917BE18442172388B93F154256C7 /* Pods-Runner.release.xcconfig */,
+			);
+			name = "Pods-Runner";
+			path = "Target Support Files/Pods-Runner";
+			sourceTree = "<group>";
+		};
+		E41062E8BE47F337E976A9917932A290 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				F8A77FEF026C3D0C5BDC5107ECDE3CB3 /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		E64782002478046264CB469B347B444E /* 04_Code */ = {
+			isa = PBXGroup;
+			children = (
+				1DE271EFEDAC00459DC3478A9EF71F19 /* fssm-parent */,
+			);
+			name = 04_Code;
+			path = 04_Code;
+			sourceTree = "<group>";
+		};
+		E84ABF90A46E9329CFFB73054E948919 /* fssm-offline */ = {
+			isa = PBXGroup;
+			children = (
+				E64782002478046264CB469B347B444E /* 04_Code */,
+			);
+			name = "fssm-offline";
+			path = "fssm-offline";
+			sourceTree = "<group>";
+		};
+		EB723DFA0F676FD1F7DED7F8E5AAAD04 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0E00C93C5AC7B80D47B7E26626FBFF42 /* AVFoundation.framework */,
+				2D079DF1780808EA71F11361FFD2C134 /* CoreLocation.framework */,
+				DFB280784FAE87CE170231FCF75EC427 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EC57E8428B99EEEE6FBD34E6C4B3520A /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				03702A7AE28C2569ADD9A59FDCBB3F92 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		ED71E2BBDFE294F530FD276A3B0246A0 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				787FED18CFF18BF6B5BC9477CFD797F3 /* sqflite */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		F09E1D9BFF91CFCE79835537A5DF269B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FE3C874B4451F8D5759E5DFA70AF21D4 /* Operation.h */,
+				A0B4F7FC95756CC25C377BF5E6569B52 /* Operation.m */,
+				63F63C08F42CD9270C4DC7BEAEF1AA92 /* SqflitePlugin.h */,
+				43D0331B5318DFD644664920E6B146E3 /* SqflitePlugin.m */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		F1C9E51AC087F99EE4AB261363FC56D1 /* Support Files */ = {
@@ -773,23 +1338,69 @@
 			name = standard;
 			sourceTree = "<group>";
 		};
-		F513BFE2C45F315B8DEB3F20F7F1F914 /* Development Pods */ = {
+		F27B5609180BC76CF43AD79D10E17300 /* plugins */ = {
 			isa = PBXGroup;
 			children = (
-				DF6BE365480FAE0D6C3D4BC3AF36CE2A /* barcode_scan */,
-				B2D82CD484B62C06A648E89D1EC4DC78 /* Flutter */,
-				95938E77473C5D4F8779720F7D5C217C /* sqflite */,
+				7D9F01B7CAF4E40078724C5F6E7EFBA6 /* barcode_scan */,
 			);
-			name = "Development Pods";
+			name = plugins;
+			path = plugins;
 			sourceTree = "<group>";
 		};
-		FAD6149DE9173E30C7A86D630FA9D8F7 /* .. */ = {
+		F358849490D94ACDCB780C11045DAFE2 /* fssm_public_apps */ = {
 			isa = PBXGroup;
 			children = (
-				154C3BC9FBE0739705E6E948D66500AF /* .. */,
+				8AD0D1DEFD83D8CFD7C22555F323C776 /* ios */,
+			);
+			name = fssm_public_apps;
+			path = fssm_public_apps;
+			sourceTree = "<group>";
+		};
+		F8298AE333417113BCC19B114AF773E7 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				4DE5070EA02B214A803E2A589C6EC1D2 /* .. */,
 			);
 			name = ..;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		F8A77FEF026C3D0C5BDC5107ECDE3CB3 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				92D99DA339F1E1CC5373D07E6AF24AE4 /* geolocation */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		F9578D5486B7565A8989AFCE4D3E3AF9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB0E2D92F39390E1E161DBE0C050296C /* barcode_scan.xcconfig */,
+				976E1760CF7BBA7104A8F8BDE2B36DC0 /* barcode_scan-dummy.m */,
+				13CF8B190AB7738B1D745CDC05150EE5 /* barcode_scan-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/barcode_scan";
+			sourceTree = "<group>";
+		};
+		FE8E240906558DE432785AA86515AE3A /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				31D1178D7A415BB7371E4BF9B4B875E8 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FEC2D9BA953DD1D58E8A170B367F85EE /* fssm-offline */ = {
+			isa = PBXGroup;
+			children = (
+				C08EE6A3F4A564A1F852A4B7DB16FEB8 /* 04_Code */,
+			);
+			name = "fssm-offline";
+			path = "fssm-offline";
 			sourceTree = "<group>";
 		};
 		FF9280CEEEF4EA634E2A14B253746E6C /* Pods */ = {
@@ -804,6 +1415,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		781378EB62F9ED41032E1CBA5BBE79F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40E4EE996047C3937556DE3D1CE827C /* Operation.h in Headers */,
+				228970B26005B16CB36B639BE9B5DCAC /* SqflitePlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B13E8C51742240F5B8D89A3F188ABDC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -835,54 +1455,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C56E6B20DA525A51054C3BF485533C24 /* Headers */ = {
+		9A0F686235D582A892EFF2BEA7150BBD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03B788093298B30358F54C446D20D9FD /* Operation.h in Headers */,
-				55BD24AEB4F498F23E6835B117ACB977 /* SqflitePlugin.h in Headers */,
+				8FD54824A926AD2D5DE75A9DCF73D440 /* geolocation-umbrella.h in Headers */,
+				5F39E947D983BF585D420B49B643E87D /* GeolocationPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1097001777E0F02574C7ACA364660EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2419C8D3791C8A63A803F31E2A044CBE /* geolocator-umbrella.h in Headers */,
+				DFCC6A6456DDBD17D18AA3CD97EC5F9D /* GeolocatorPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2F51ECC8B6878D9706A25DE7D4A2F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88D9AA0C57B98C2799791A1A701FA93 /* Pods-Runner-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0DC7B1795AE63604ADDE761A9134561E /* Pods-Runner */ = {
+		0932DC396E5C4D7776FF9B96BC9E47B3 /* geolocation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5266BD1B98BCBAB0544D18FA15A9F966 /* Build configuration list for PBXNativeTarget "Pods-Runner" */;
+			buildConfigurationList = C36BA215279B56685EE02B5FA21A071A /* Build configuration list for PBXNativeTarget "geolocation" */;
 			buildPhases = (
-				067773ADB9CF8F997AA62AED1A204DC4 /* Sources */,
-				750427D921C4849E0B5F603106805EF5 /* Frameworks */,
+				40DEF6A29CD68D647EDFAE299918DBB9 /* Sources */,
+				EDE6E519202AECBE21B7A179DA084D97 /* Frameworks */,
+				9A0F686235D582A892EFF2BEA7150BBD /* Headers */,
+				9311B391987F8DC4221937E0F1E91C41 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2C33DE30C4ACB93BC5E154342551FD0D /* PBXTargetDependency */,
-				80A5D6A1EE54D1ED6717605414192E79 /* PBXTargetDependency */,
-				9BEA6B0954A41A98C071257F9475A3FE /* PBXTargetDependency */,
-				A62717C64E2580B5E64A1F644045089D /* PBXTargetDependency */,
 			);
-			name = "Pods-Runner";
-			productName = "Pods-Runner";
-			productReference = 747E713CC2446A37C407E9F3CCF5E896 /* libPods-Runner.a */;
+			name = geolocation;
+			productName = geolocation;
+			productReference = EB608DAB47D9857EFB3C942DC7951008 /* libgeolocation.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		9AAEB28324C65F3286C2FD2ED534D370 /* sqflite */ = {
+		61F93AD8D88DFFE103A72A8425CA2570 /* sqflite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 186C7EFEE36EE9828A1298F8A47B4AEE /* Build configuration list for PBXNativeTarget "sqflite" */;
+			buildConfigurationList = D3E94255B39D02F0AD51C11986FE13FF /* Build configuration list for PBXNativeTarget "sqflite" */;
 			buildPhases = (
-				5AC5F3A7EC4F91BE91D7EC092FCFBD26 /* Sources */,
-				E7CA2822C963F26AFB52DB60D9BF748F /* Frameworks */,
-				C56E6B20DA525A51054C3BF485533C24 /* Headers */,
+				9C6F8A2C6364457AB140EC844E8E6195 /* Sources */,
+				236A5A58283538EB849162BFA22EE17A /* Frameworks */,
+				781378EB62F9ED41032E1CBA5BBE79F8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B74943E603175946311F0A6BA9310DC1 /* PBXTargetDependency */,
+				00E58B8EDB9EE3B56B2D36513B22B69C /* PBXTargetDependency */,
 			);
 			name = sqflite;
 			productName = sqflite;
-			productReference = DFF433DC79EF28DB5BD876CBA9569FF6 /* libsqflite.a */;
+			productReference = AA76D172D3ABE941DEBE57FD14A55293 /* libsqflite.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		9F22D9F2F10FB376C7B6B6E767E3B0CF /* barcode_scan */ = {
@@ -900,7 +1535,25 @@
 			);
 			name = barcode_scan;
 			productName = barcode_scan;
-			productReference = 2E985C61F26BC6D589793E5D91059B75 /* libbarcode_scan.a */;
+			productReference = 96270F008C8C749F1E04F6335B99F3AE /* libbarcode_scan.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D0FF3B6455FA182DD48F6FC9D5CAE6EE /* geolocator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4B291F987AFEF3146D787596394FEBC /* Build configuration list for PBXNativeTarget "geolocator" */;
+			buildPhases = (
+				01238F23766E6B6299654A77C1195C68 /* Sources */,
+				6895191DDFB4C339344B1A170C473F9A /* Frameworks */,
+				C1097001777E0F02574C7ACA364660EB /* Headers */,
+				891060D3C6F10ACEF7A599BC985A74E9 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geolocator;
+			productName = geolocator;
+			productReference = 007756F535F51DDBA635EE06F6B61556 /* libgeolocator.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		D97E71B679F946A11EED06A14CDAA81A /* MTBBarcodeScanner */ = {
@@ -917,7 +1570,30 @@
 			);
 			name = MTBBarcodeScanner;
 			productName = MTBBarcodeScanner;
-			productReference = 3D09555390101EAF31F789D30040E52C /* libMTBBarcodeScanner.a */;
+			productReference = EBFB5747E465F9D5C8288516CA45464D /* libMTBBarcodeScanner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EFA1BBE9915D3C69E0CEA44264EAA03A /* Pods-Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD808A2C80A05B2EB88CA1C6182F4BDB /* Build configuration list for PBXNativeTarget "Pods-Runner" */;
+			buildPhases = (
+				8305D2131C08B138F67966334CF86D5E /* Sources */,
+				3A79314AA63088BAE8DD53461D0E79D6 /* Frameworks */,
+				DD2F51ECC8B6878D9706A25DE7D4A2F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FBE0BECE2FF372E62CB668052F71C70 /* PBXTargetDependency */,
+				ACD731A0F1A505D7BD32526A793F3B7E /* PBXTargetDependency */,
+				62E39CA338C157993B84256B856A4FA5 /* PBXTargetDependency */,
+				1E1CF0F825DE12BD81C54E115D2E6D1D /* PBXTargetDependency */,
+				6E629DCC74112CDE80AA6CC1363AE912 /* PBXTargetDependency */,
+				7C2D59B59B5E14120E2967D45EED1651 /* PBXTargetDependency */,
+			);
+			name = "Pods-Runner";
+			productName = "Pods-Runner";
+			productReference = 4F1F7A5072880261E84F88936E224189 /* libPods-Runner.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		F3B1490ADFF2E0A5A13B4C445576BB03 /* FMDB */ = {
@@ -934,7 +1610,7 @@
 			);
 			name = FMDB;
 			productName = FMDB;
-			productReference = C2AC49B822273034E245C17C4E67FEC4 /* libFMDB.a */;
+			productReference = 3BB924868686C0E9DE28F64C9C414505 /* libFMDB.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -954,25 +1630,82 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A64E580724656F87F11F71A343EDB12E /* Products */;
+			productRefGroup = D5A591EBD80789518D371B338C358961 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9F22D9F2F10FB376C7B6B6E767E3B0CF /* barcode_scan */,
 				F3B1490ADFF2E0A5A13B4C445576BB03 /* FMDB */,
+				0932DC396E5C4D7776FF9B96BC9E47B3 /* geolocation */,
+				D0FF3B6455FA182DD48F6FC9D5CAE6EE /* geolocator */,
 				D97E71B679F946A11EED06A14CDAA81A /* MTBBarcodeScanner */,
-				0DC7B1795AE63604ADDE761A9134561E /* Pods-Runner */,
-				9AAEB28324C65F3286C2FD2ED534D370 /* sqflite */,
+				EFA1BBE9915D3C69E0CEA44264EAA03A /* Pods-Runner */,
+				61F93AD8D88DFFE103A72A8425CA2570 /* sqflite */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		891060D3C6F10ACEF7A599BC985A74E9 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/geolocator/geolocator.modulemap",
+				"${PODS_ROOT}/Headers/Public/geolocator/geolocator-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/geolocator-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/geolocator/geolocator.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/geolocator/geolocator-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+		9311B391987F8DC4221937E0F1E91C41 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/geolocation/geolocation.modulemap",
+				"${PODS_ROOT}/Headers/Public/geolocation/geolocation-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/geolocation-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/geolocation/geolocation.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/geolocation/geolocation-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		067773ADB9CF8F997AA62AED1A204DC4 /* Sources */ = {
+		01238F23766E6B6299654A77C1195C68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C33DD48F90663DF7593C692749E8E012 /* Pods-Runner-dummy.m in Sources */,
+				6BA8A49F518F005EA81DD71839D2E6B6 /* CLLocationExtensions.swift in Sources */,
+				EE99F7412C7F6EA5E40F49773BEEB844 /* CLPlacemarkExtensions.swift in Sources */,
+				0C7449D12481254C94A2282155BD0910 /* Codec.swift in Sources */,
+				9DC5C5023505FEB64CB80E624E737365 /* GeocodeTask.swift in Sources */,
+				165E68049FE130AC65DEF123057BA9D8 /* geolocator-dummy.m in Sources */,
+				7C4615A25199FFC364410D620B2A5A23 /* GeolocatorPlugin.m in Sources */,
+				8813CED40552BB7E41D0C4C2194F3FA7 /* LocationOptions.swift in Sources */,
+				9800223CD40A824658D590185636C611 /* LocationTask.swift in Sources */,
+				661603959CA6319D41E018AFBF163785 /* SwiftGeolocatorPlugin.swift in Sources */,
+				DBBA28606DA4740E2BD89853270261E9 /* TaskContext.swift in Sources */,
+				BA95FFA42257BA7FCFBD38C8585C1ADC /* TaskProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -989,22 +1722,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		40DEF6A29CD68D647EDFAE299918DBB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AAC84BFE6A53A0ACF86333ACEE97CD /* Accuracy.swift in Sources */,
+				3F4549F8B2C937E7AAC16F6B902FCF8E /* Codec.swift in Sources */,
+				AF115ECFC67FF55E234FB07C6E6A8543 /* geolocation-dummy.m in Sources */,
+				5AF88FE92E092FDAD2C93582C80C9A82 /* GeolocationPlugin.m in Sources */,
+				25520F292D5A2FC69ADCEB1264721949 /* Location.swift in Sources */,
+				AA913549013E35BBF984574D23F867A2 /* LocationChannel.swift in Sources */,
+				258D36A094DF9AFC3E61DF891F718DE5 /* LocationClient.swift in Sources */,
+				42212B0F3A71217E3B04B61C153E3CEE /* LocationExtension.swift in Sources */,
+				9EB3B32C6DE7061895AD5D3B4CDC8898 /* LocationHelper.swift in Sources */,
+				93291C63FFC0F43D9DA6653F98124E97 /* LocationUpdatesRequest.swift in Sources */,
+				B6E8B0EBA1938609C132145C5BA2B1D0 /* Permission.swift in Sources */,
+				24DBA8205AD3388A3174BFE760720A24 /* Result.swift in Sources */,
+				C4FB14E26179D02227E97725433A362D /* SwiftGeolocationPlugin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		43D72254C0B3B7E5D4E5E989481CAD00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F710C53AFC541D0F882BF08C89ABC5CB /* MTBBarcodeScanner-dummy.m in Sources */,
 				25205D5399D0BE9EA31C6F22D72F2D87 /* MTBBarcodeScanner.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5AC5F3A7EC4F91BE91D7EC092FCFBD26 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2C48BCB0F9E2B5F7EF2FD214A362286 /* Operation.m in Sources */,
-				4B452F306BDF101563BDFBDEB37AF754 /* sqflite-dummy.m in Sources */,
-				1185B51998042E4070709A1A33E78396 /* SqflitePlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1018,14 +1761,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8305D2131C08B138F67966334CF86D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5E43894DA0992CBB07CDB5141607CB /* Pods-Runner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C6F8A2C6364457AB140EC844E8E6195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B34CBA4E70F1AEF5E99A5DEAB520B8D /* Operation.m in Sources */,
+				E6080C15F5598DB256344B71363E6777 /* sqflite-dummy.m in Sources */,
+				ED51E092E9FBF821A40D2AE09D073349 /* SqflitePlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2C33DE30C4ACB93BC5E154342551FD0D /* PBXTargetDependency */ = {
+		00E58B8EDB9EE3B56B2D36513B22B69C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FMDB;
 			target = F3B1490ADFF2E0A5A13B4C445576BB03 /* FMDB */;
-			targetProxy = F278F23BD20FA1ACBD25C9CBA5BDFDE5 /* PBXContainerItemProxy */;
+			targetProxy = B00985AD809B95AD4AB0B916659FC719 /* PBXContainerItemProxy */;
+		};
+		1E1CF0F825DE12BD81C54E115D2E6D1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = geolocation;
+			target = 0932DC396E5C4D7776FF9B96BC9E47B3 /* geolocation */;
+			targetProxy = 29EEB9AB46207BBBDE62D54E8BEA4517 /* PBXContainerItemProxy */;
+		};
+		1FBE0BECE2FF372E62CB668052F71C70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = F3B1490ADFF2E0A5A13B4C445576BB03 /* FMDB */;
+			targetProxy = A9F1DA124491CC06D93A310FB87BA112 /* PBXContainerItemProxy */;
+		};
+		62E39CA338C157993B84256B856A4FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = barcode_scan;
+			target = 9F22D9F2F10FB376C7B6B6E767E3B0CF /* barcode_scan */;
+			targetProxy = 3D6506A271BCE7BADDCB478B7FD8FD32 /* PBXContainerItemProxy */;
+		};
+		6E629DCC74112CDE80AA6CC1363AE912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = geolocator;
+			target = D0FF3B6455FA182DD48F6FC9D5CAE6EE /* geolocator */;
+			targetProxy = 580600283EC0BDDB6E9A5B1EB5AD87F4 /* PBXContainerItemProxy */;
+		};
+		7C2D59B59B5E14120E2967D45EED1651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sqflite;
+			target = 61F93AD8D88DFFE103A72A8425CA2570 /* sqflite */;
+			targetProxy = 5493D81385697EB0E3FE9A44BBDAE1BD /* PBXContainerItemProxy */;
 		};
 		7D1290994E27C09C64669A36E79E8878 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1033,36 +1824,69 @@
 			target = D97E71B679F946A11EED06A14CDAA81A /* MTBBarcodeScanner */;
 			targetProxy = CAE9C7404AEE028BA751E7A4B5B4B3BB /* PBXContainerItemProxy */;
 		};
-		80A5D6A1EE54D1ED6717605414192E79 /* PBXTargetDependency */ = {
+		ACD731A0F1A505D7BD32526A793F3B7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MTBBarcodeScanner;
 			target = D97E71B679F946A11EED06A14CDAA81A /* MTBBarcodeScanner */;
-			targetProxy = 40E5C2287AB788C91FF29CB3F30A6A04 /* PBXContainerItemProxy */;
-		};
-		9BEA6B0954A41A98C071257F9475A3FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = barcode_scan;
-			target = 9F22D9F2F10FB376C7B6B6E767E3B0CF /* barcode_scan */;
-			targetProxy = 5E49937363D9F8E65F1482A0E6A003ED /* PBXContainerItemProxy */;
-		};
-		A62717C64E2580B5E64A1F644045089D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = sqflite;
-			target = 9AAEB28324C65F3286C2FD2ED534D370 /* sqflite */;
-			targetProxy = CD79B1CA1DA1DF1ACBB9C4B3C616D793 /* PBXContainerItemProxy */;
-		};
-		B74943E603175946311F0A6BA9310DC1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FMDB;
-			target = F3B1490ADFF2E0A5A13B4C445576BB03 /* FMDB */;
-			targetProxy = C0371E39E63709099B67709EA7B018A3 /* PBXContainerItemProxy */;
+			targetProxy = D6E935B2E386503DC58EF6EAB29AAAB3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		06D211E6B31EA794120DF1BB239EDA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F645FD5E548024286B762562F00DA569 /* sqflite.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/sqflite/sqflite-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = sqflite;
+				PRODUCT_NAME = sqflite;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B5264DAC113C92EAAD5A03347C39081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEEFA43E4F7885377A6EE926291186DE /* geolocator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/geolocator/geolocator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/geolocator/geolocator.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = geolocator;
+				PRODUCT_NAME = geolocator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		0D28C897DD7C5DCEF0D3AADA65A0FB71 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCA96AB173B63030C68CE567E72493FE /* barcode_scan.xcconfig */;
+			baseConfigurationReference = BB0E2D92F39390E1E161DBE0C050296C /* barcode_scan.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1080,29 +1904,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		0E633E635BFA58EBA2F13A1878B28AC2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C42D986846F74B4DB78535F7182D117 /* Pods-Runner.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				ENABLE_BITCODE = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1134,9 +1935,9 @@
 			};
 			name = Release;
 		};
-		151A0BF9DA0F943C2248BE1A1A009598 /* Debug */ = {
+		10B721CFFF5556F68BC8AAD36317036E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B4CEFB7A7C39037B5DFAFCE375062E1 /* Pods-Runner.debug.xcconfig */;
+			baseConfigurationReference = 3F991BEC024C174DC2D3ECF30DD21C91 /* Pods-Runner.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1144,19 +1945,22 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				ENABLE_BITCODE = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1209,7 +2013,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1235,31 +2039,6 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = MTBBarcodeScanner;
 				PRODUCT_NAME = MTBBarcodeScanner;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		52301A244AA7008ECB6376DE5DC96A4C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3CA32E0E92614EFFBAA1B89A09DF417 /* sqflite.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/sqflite/sqflite-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = sqflite;
-				PRODUCT_NAME = sqflite;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1296,7 +2075,7 @@
 		};
 		66DF282DFC097AA0B2A4374CD0534749 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCA96AB173B63030C68CE567E72493FE /* barcode_scan.xcconfig */;
+			baseConfigurationReference = BB0E2D92F39390E1E161DBE0C050296C /* barcode_scan.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1318,9 +2097,9 @@
 			};
 			name = Debug;
 		};
-		84CB39562FAE721383EDB7F21A1D6C90 /* Debug */ = {
+		7AF0A8E86570CF99C0413DA76AAE938C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3CA32E0E92614EFFBAA1B89A09DF417 /* sqflite.xcconfig */;
+			baseConfigurationReference = F645FD5E548024286B762562F00DA569 /* sqflite.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1339,10 +2118,139 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B5B647D5B244A895B1DDF13D08C329D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46795E6971B6846CBB5ED4FEEED5F977 /* geolocation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/geolocation/geolocation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/geolocation/geolocation.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = geolocation;
+				PRODUCT_NAME = geolocation;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D6756F15CE73408805E4B06E637D553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46795E6971B6846CBB5ED4FEEED5F977 /* geolocation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/geolocation/geolocation-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/geolocation/geolocation.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = geolocation;
+				PRODUCT_NAME = geolocation;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+		EC59536187D5F51286661B8709433239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEEFA43E4F7885377A6EE926291186DE /* geolocator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/geolocator/geolocator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/geolocator/geolocator.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = geolocator;
+				PRODUCT_NAME = geolocator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9BA56B6B8FD9DB18D55658D7A4A87CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D591B06B0AB2876902801175DB30059 /* MTBBarcodeScanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MTBBarcodeScanner/MTBBarcodeScanner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MTBBarcodeScanner;
+				PRODUCT_NAME = MTBBarcodeScanner;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA6B3352056EF0E1AF89FCC74258627A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9503917BE18442172388B93F154256C7 /* Pods-Runner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Runner/Pods-Runner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1392,37 +2300,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		F9BA56B6B8FD9DB18D55658D7A4A87CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D591B06B0AB2876902801175DB30059 /* MTBBarcodeScanner.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				ENABLE_BITCODE = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/MTBBarcodeScanner/MTBBarcodeScanner-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = MTBBarcodeScanner;
-				PRODUCT_NAME = MTBBarcodeScanner;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1436,29 +2320,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		186C7EFEE36EE9828A1298F8A47B4AEE /* Build configuration list for PBXNativeTarget "sqflite" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84CB39562FAE721383EDB7F21A1D6C90 /* Debug */,
-				52301A244AA7008ECB6376DE5DC96A4C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
-				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5266BD1B98BCBAB0544D18FA15A9F966 /* Build configuration list for PBXNativeTarget "Pods-Runner" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				151A0BF9DA0F943C2248BE1A1A009598 /* Debug */,
-				0E633E635BFA58EBA2F13A1878B28AC2 /* Release */,
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1477,6 +2343,42 @@
 			buildConfigurations = (
 				65C67968E847896FF9856E16AABDDBC7 /* Debug */,
 				0F081EA874D1665C47E91510D8AD4370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36BA215279B56685EE02B5FA21A071A /* Build configuration list for PBXNativeTarget "geolocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D6756F15CE73408805E4B06E637D553 /* Debug */,
+				8B5B647D5B244A895B1DDF13D08C329D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E94255B39D02F0AD51C11986FE13FF /* Build configuration list for PBXNativeTarget "sqflite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D211E6B31EA794120DF1BB239EDA9B /* Debug */,
+				7AF0A8E86570CF99C0413DA76AAE938C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4B291F987AFEF3146D787596394FEBC /* Build configuration list for PBXNativeTarget "geolocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC59536187D5F51286661B8709433239 /* Debug */,
+				0B5264DAC113C92EAAD5A03347C39081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD808A2C80A05B2EB88CA1C6182F4BDB /* Build configuration list for PBXNativeTarget "Pods-Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B721CFFF5556F68BC8AAD36317036E /* Debug */,
+				FA6B3352056EF0E1AF89FCC74258627A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
